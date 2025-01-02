@@ -1,0 +1,49 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(133, 214, 79);
+    padding: 0;
+}
+
+h1{
+    color: rgb(29, 96, 155);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.contenedor{
+    background-color: rgba(67, 122, 243, 0.63);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.fuentedeletra{
+    color: aliceblue;
+    font-family: "Bebas Neue", sans-serif;;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.fuentedeletra{
+    color: aliceblue;
+    font-family: "Bebas Neue", sans-serif;;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+form{
+    background-color: rgba(248, 91, 43, 0.863);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#boton{
+    background-color: rgba(11, 27, 245, 0.815);
+    font-family: "Bebas Neue", sans-serif;;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+

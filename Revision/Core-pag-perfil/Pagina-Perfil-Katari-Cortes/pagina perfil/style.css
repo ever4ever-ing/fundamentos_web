@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    width: 90rem;
+    height: 4rem;
+}
+.side-nav{
+    display: flex;
+}
+.logo a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin: 1rem;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav-links li a {
+    display: flex;
+    align-items: center;
+    color: #f2f2f2;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 2rem;
+    padding: 1rem;
+}
+.nav-links li a:hover {
+    color: rgb(190, 143, 81);
+}
+.navbutton{
+    display: flex;
+    align-items: center;
+    background-color: #00bddc;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 2.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+#container{
+    display: flex;
+    background-color: white;
+    justify-content: center;      /*space-around, padding*/
+    width: 90rem;
+    height: 38rem;
+}
+#container1{
+    flex-direction: column;
+    margin-right: 2rem;
+}
+#container2{
+    flex-direction: column;    /*row*/
+    margin-left: 2rem;
+}
+#perfil{
+    background-color: white;   /*border-radius*/
+    position: relative;
+    height: 27rem;
+    width: 30rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px 1px #f0f0ef;
+    border-radius: 2rem;
+}
+.perfil1{
+    background-color: #00bcd5;
+    width: 30rem;
+    height: 6rem;
+}
+.perfil2{
+    background-color: white;
+    width: 30rem;
+    height: 21rem;
+}
+.perfil3{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    top: 11rem;
+    left: 1rem;
+    margin: 0.5rem;
+}
+.perfil4 img{
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 7rem;
+    height: 7rem;
+    top: 3rem;
+    left: 2rem;
+}
+.perfilbutton{
+    position: absolute;
+    color: #74c0fc;
+    top: 23rem;
+    left: 2rem; 
+    border: none;
+    background-color: #ffff;
+}
+
+#solicitudes{
+    background-color: white;
+    width: 20rem;
+    height: 10rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 5px 1px #f0f0ef;
+    border-radius: 1rem;
+
+}
+#solicitud{
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.img2{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.p-solicitud{
+    font-family: "Roboto", sans-serif;
+    margin-top: 0.7rem;
+}
+.button-p{
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+}
+.button1{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border-color: rgb(226, 131, 173);
+    margin-left: 3rem;
+}
+.button2{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border-color: rgb(226, 131, 173);
+}
+
+#education{
+    background-color: white;
+    width: 30rem;
+    height: 8rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px 1px #f0f0ef;
+    border-radius: 1rem;
+}
+#education p{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+#conexiones{
+    background-color:white;
+    width: 21rem;
+    height: 25rem ;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px 1px #f0f0ef;
+    border-radius: 1rem;
+}
+#conexion{
+    display: flex;
+    margin: 1rem;
+    
+}
+#conexion img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+.p-conexion{
+    margin-top: 0.8rem;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    margin: 1.5rem;
+}
+
+

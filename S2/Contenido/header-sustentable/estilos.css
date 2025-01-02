@@ -1,0 +1,71 @@
+/* Tipografía */
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 1em;
+
+  }
+  h3{
+
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+
+  /*Columnas*/
+  .columnas {
+    display: flex;
+  }
+  
+  .columnas span {
+    flex: 2;
+    text-align: justify;
+    margin: 10px;
+  }
+
+.imagen-contenedor {
+  text-align: center;
+}
+
+.imagen-contenedor img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 3%;
+}

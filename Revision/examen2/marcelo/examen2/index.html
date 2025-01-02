@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">EVENT<div class="circulo"></div>ASTICO</div>
+        <ul class="nav-links">
+            <li class="colorInicio">Inicio</li>
+            <li>¿Como Funciona?</li>
+            <li>Ayuda</li>
+        </ul>
+        <ul class="nav-botones">
+            <li><button class="BOTON1">Register</button></li>
+            <li><button class="BOTON2" id="botonEvento">Crear Evento</button></li>
+        </ul>
+    </nav>
+    <div class="imagenfondo">
+        <img id="mapa1" src="img/mapa-1.png" alt="" />
+    </div>
+    <div class="nav-medio">
+        <ul class="list">
+            <li class="seleccionado">Eventos Cercanos</li>
+            <li id="nuevoseventos">Nuevos Eventos</li>
+        </ul>
+        <div>
+            <input type="text" id="busqueda" placeholder="Buscar Eventos..." />
+            <button class="buscar">buscar</button>
+        </div>
+        <select name="" id="select">
+            <option value="">Ordenar por Relevancia</option>
+        </select>
+    </div>
+    <div class="tarjetas">
+        <div>
+            <img src="img/evento-tecnologia.jpg" alt="" srcset="" />
+            <div class="textotarjeta">
+                <div id="fechaevento">
+                    <h1><span>10</span><br />Mayo</h1>
+                </div>
+                <div>
+                    <p>Congreso de Tecnologia</p>
+                    <div id="asistentes">
+                        <small>Asistentes:</small>
+                        <div>
+                            <img id="asistenteimg1" src="img/asistentes.png" alt="" />
+                            <span id="contadorasistentes1">6</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="img/evento-verano.jpg" alt="" srcset="" />
+            <div class="textotarjeta">
+                <div id="fechaevento">
+                    <h1><span>10</span><br />Mayo</h1>
+                </div>
+                <div>
+                    <p>Fiesta de verano</p>
+                    <div id="asistentes">
+                        <small>Asistentes:</small>
+                        <div>
+                            <img id="asistenteimg2" src="img/asistentes.png" alt="" />
+                            <span id="contadorasistentes2">12</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="img/evento-navidad.jpg" alt="" srcset="" />
+            <div class="textotarjeta">
+                <div id="fechaevento">
+                    <h1>
+                        <span>10</span><br />
+                        Mayo
+                    </h1>
+                </div>
+                <div>
+                    <p>Pasada navideña</p>
+                    <div id="asistentes">
+                        <small>Asistentes:</small>
+                        <div>
+                            <img id="asistenteimg3" src="img/asistentes.png" alt="" />
+                            <span id="contadorasistentes3">9</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

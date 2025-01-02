@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoptaTuÁrbol</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        .verde1 { color: #109E15; } 
+        .verde2 { color: #B9D6A9; } 
+        .verde3 { color: #95C27C; } 
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Tu plataforma favorita de adopción de árboles</h1>
+    </header>
+    <div class="contenedor-nav">
+        <div class="nav">
+            <h1>
+                <span class="verde1">Adopta</span><span class="verde2">Tu</span><span class="verde3">Árbol</span>
+            </h1>
+        </div>
+        <div class="adoptar-donar">
+            <button id="Adoptar">Adoptar</button>
+            <button id="Donar">Donar</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="nav2">
+            <div class="texto">
+                <h1 id="tituloArboles">Mostrando: Todos los Árboles</h1>
+            </div>
+            <div class="select">
+                <select id="miSelect" onchange="cambiarTexto()">
+                    <option value="todos" selected>Todos los Árboles</option>
+                    <option value="opcion1">Árboles Frutales</option>
+                    <option value="opcion2">Árboles de Flores</option>
+                    <option value="opcion3">Árboles Ornamentales</option>
+                </select>
+            </div>
+    </div>
+        <div class="arbol">
+            <div class="arboles">
+                <img src="alamo.jpg" alt="alamo" class="img-arbol">
+                <div class="info-arbol">
+                    <h1>Álamo</h1>
+                    <p>Árbol caducifolio, de hojas anchas y con largos pecíolos.</p>
+                    <button class="botonAdoptar">Adoptar</button>
+                </div>
+            </div>
+            <div class="arboles">
+                <img src="fresno.jpg" alt="fresno" class="img-arbol">
+                <div class="info-arbol">
+                    <h1>Fresno</h1>
+                    <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+                    <button class="botonAdoptar">Adoptar</button>
+                </div>
+            </div>
+            <div class="arboles">
+                <img src="pino.jpg" alt="alamo" class="img-arbol">
+                <div class="info-arbol">
+                    <h1>Pino</h1>
+                    <p>Árbol de la familia de las abietáceas, de tronco elevado, recto.</p>
+                    <button class="botonAdoptar">Adoptar</button>
+                </div>
+            </div>
+            <div class="arboles">
+                <img src="jacaranda.jpg" alt="fresno" class="img-arbol">
+                <div class="info-arbol">
+                    <h1>Jacaranda</h1>
+                    <p>Árbol de copa extendida y redondeada con flores.</p>
+                    <button class="botonAdoptar">Adoptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contacto">
+            <h1>Contáctanos</h1>
+            <p>Av. Principal #123</p>
+            <p>Ciudad Palma, 10000</p>
+            <p>Chile</p> 
+        </div>
+        <div class="info">
+            <div class="bloque-info">
+                <a href="#">Inicio</a>
+            </div>
+            <div class="bloque-info">
+                <a href="#">Juegos</a>
+            </div>
+            <div class="bloque-info">
+                <a href="#">Noticias</a>
+            </div>
+            <div class="bloque-info">
+                <a href="#">Reseñas</a>
+            </div>
+            <div class="bloque-info">
+                <a href="#">Foro</a>
+            </div>
+            <div class="bloque-info">
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+        <div class="suscribete">
+            <h1>Suscríbete</h1>
+            <input type="text" id="correo" name="correo" placeholder="usuario@correo.com">
+            <button class="enviar">enviar</button>
+        </div>
+    </footer>
+</body>
+</html>

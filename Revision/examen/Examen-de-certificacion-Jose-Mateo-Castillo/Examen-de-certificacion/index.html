@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta tu Arbol</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p>Tu plataforma favorita de adopción de árboles</p>
+    </header>
+    <main>
+        <div class="div1">
+            <div class="div1-a">
+                <h1><span class="color1">Adopta</span><span class="color2">Tu</span><span class="color3">Árbol</span></h1>
+                <span><button id="adoptar">Adoptar</button> <button id="donar" onclick="alertaBotonDonar(this)">Donar</button></span>
+            </div>
+            <hr>
+            <div class="div1-b">
+                <h2 id="mostrando">Mostrando: Todos los Árboles</h2>
+                <select name="arboles" id="arboles" onclick="cambiarTextoSelect(this)">
+                    <option value="Todos los arboles">Todos los arboles</option>
+                    <option value="Alamo">Álamo</option>
+                    <option value="Fresno">Fresno</option>
+                    <option value="Jacaranda">Jacaranda</option>
+                    <option value="Pino">Pino</option>
+                </select>
+            </div>
+        </div>
+        <div class="div2">
+            <div class="div2-a">
+                <div class="contenido">
+                    <img src="img/alamo.jpg" alt="alamo">
+                    <div>
+                        <h1>Álamo</h1>
+                        <p>Árbol caducifolio, de hojas anchas y con largos pecíolos.</p>
+                    </div>
+                    <button class="adoptar-arbol" onclick="cambiarTextoAdoptar(this)">Adoptar</button>
+                </div>
+            </div>
+            <div class="div2-a">
+                <div class="contenido">
+                    <img src="img/fresno.jpg" alt="fresno">
+                    <div>
+                        <h1>Fresno</h1>
+                        <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+                    </div>
+                    <button class="adoptar-arbol" onclick="cambiarTextoAdoptar(this)">Adoptar</button>
+                </div>
+            </div>
+            <div class="div2-a">
+                <div class="contenido">
+                    <img src="img/pino.jpg" alt="pino">
+                    <div>
+                        <h1>Pino</h1>
+                        <p>Árbol de la familia de los abietáceas, de tronco elevado, recto.</p>
+                    </div>
+                    <button class="adoptar-arbol" onclick="cambiarTextoAdoptar(this)">Adoptar</button>
+                </div>
+            </div>
+            <div class="div2-a">
+                <div class="contenido">
+                    <img src="img/jacaranda.jpg" alt="jacaranda">
+                    <div>
+                        <h1>Jacaranda</h1>
+                        <p>Árbol de copa extendida y redondeada con flores.</p>
+                    </div>
+                    <button class="adoptar-arbol" onclick="cambiarTextoAdoptar(this)">Adoptar</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h1>Contáctanos</h1>
+            <p>Av. Principal #123 Ciudad Palma, 10000 Chile</p>
+        </div>
+        <div >
+            <table>
+                <tr>
+                    <td>Inicio</td> 
+                    <td>Contacto</td>  
+                </tr>
+                <tr>
+                    <td>Sobre Nosotros</td>
+                    <td>Contacto</td>   
+                </tr>
+                <tr>
+                    <td>Adopta un Arbol</td>
+                    <td>Patrocinadores</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1>Suscríbete</h1>
+            <input type="text" name="suscribete" id="enviar" placeholder="usuario@correo.com">
+            <button id="boton-enviar">enviar</button>
+        </div>
+    </footer>
+</body>
+</html>

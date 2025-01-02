@@ -1,0 +1,160 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F3F3F3;
+    color: #333;
+}
+
+header {
+    background-color: rgb(148, 197, 128 );
+    padding: 0.1rem;
+    text-align: center;
+    font-style:oblique;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: space-between;
+}
+
+nav h1 {
+    font-size: 32px;
+    color: #2E7D32;
+    font-weight: bold;
+    font-style: italic;
+    font-style: oblique;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex:2;
+    flex-direction: space-between;
+    justify-content:flex-end;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #388E3C;
+}
+
+
+.tree-section {
+    padding: 30px;
+    background-color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.tree-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.tree-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tree-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tree-info {
+    padding: 15px;
+}
+
+.tree-info h3 {
+    margin: 10px 0;
+    color: #2E7D32;
+}
+
+.adoptar-btn {
+    background-color: #81C784;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adoptar-btn:hover {
+    background-color: #4CAF50;
+}
+
+.adoptar-btn.adoptado {
+    background-color: #4CAF50;
+}
+
+footer {
+    background-color: #A5D6A7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer .contacto {
+    width: 30%;
+    flex: 1;
+}
+
+footer .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex:1;
+}
+
+footer .footer-links a {
+    color: #2E7D32;
+    text-decoration: none;
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+footer .suscribete {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+
+}
+

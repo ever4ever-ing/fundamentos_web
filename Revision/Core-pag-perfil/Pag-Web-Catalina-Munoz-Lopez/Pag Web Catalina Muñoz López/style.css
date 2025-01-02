@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a, .logout-button {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logout-button {
+    background-color: #00aaff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    text-align:left;
+}
+
+.profile-header {
+    background-color: #e18be9;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -50px;
+    position: relative;
+    top: 100px; left: 0px;
+    border-radius: 60%;
+    background-color: rgb(223, 181, 189);
+    border: 1px solid #fff;
+}
+
+.sidebar {
+    width: 35%;
+}
+
+.connection-requests, .connections {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.request img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid  #00aaff;
+}
+
+.accept, .decline {
+    background-color:White;
+    border: 2px solid  #00aaff;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.accept {
+    color: green;
+}
+
+.decline {
+    color: red;
+}
+h2 {
+    margin-top: 90px;
+    color: #e18be9;
+}

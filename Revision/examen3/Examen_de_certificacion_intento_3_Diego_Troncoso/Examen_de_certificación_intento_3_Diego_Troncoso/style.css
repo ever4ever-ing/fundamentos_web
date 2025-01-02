@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header////////////////////////////////////*/
+.header-div{
+    background-color: black;
+    display: flex;
+    height: 20rem;
+    flex-direction: column;
+
+}
+
+.hdiv1{
+    background-color: aqua;
+    flex: 1;
+    background-color: black;
+    border-bottom: solid 0.01rem white;
+
+}
+
+.hdiv2{
+    display: flex;
+    flex: 1;
+
+}
+
+.hdiv2a{
+    display: flex;
+    flex: 1;
+    color: white;
+    align-items: center;
+}
+
+.hdiv2b{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+
+}
+
+.btn1{
+    background-color: black;
+    border: solid 0.1rem black;
+    margin: 1rem;
+}
+
+.imgbtn1{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.hdiv3{
+    display: flex;
+    color: white;
+    flex: 2;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline solid 0.2rem #f2e0a5;
+}
+
+.Batalla:hover{
+    color: #f2e0a5;
+}
+
+.hdiv4{
+    display: flex;
+    flex: 1;
+    color: white;
+    justify-content: center;
+}
+
+.hdiv4a{
+    display: flex;
+    border: solid 0.5rem black;
+    justify-items: center;
+    align-items: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+/*MAIN//////////////////*/
+
+.main-div{
+    display: flex;
+    background-color: white;
+    height: 52.8rem;
+}
+
+.mdiv1{
+    background-color: #d9d9d9;
+    flex: 1;
+    margin: 4rem 0rem 4rem 4rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mdiv1a{
+    flex: 1;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mdiv1b{
+    flex: 3;
+}
+
+.t-selector{
+    display: flex;
+    margin-left: 3rem;
+    border-bottom: solid 0.2rem #f2e0a5;
+    margin-right: 4rem
+}
+
+.t-selector1{
+    flex: 3;
+}
+
+input{
+    margin-left: 3rem;
+}
+
+label{
+    font-size: larger;
+}
+
+.t-selector2{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-left: 20rem;
+}
+
+.mdiv1c{
+    flex: 2.5;
+}
+
+.mdiv1d{
+    flex: 1.25;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn2{
+    height: 3rem;
+    width: 4.5rem;
+    font-size: large;
+    background-color: #f2e0a5;
+    border: solid 0.1rem #f2e0a5;
+}
+
+.mdiv2{
+background-color: #d9d9d9;
+    flex: 2;
+    margin: 4rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mdiv2a{
+    display: flex;
+    flex: 1;
+    align-items: end;
+    justify-content: center;
+    font-size: x-large;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+
+}
+
+.mdiv2b{
+    flex: 6;
+    display: flex;
+    margin-top: 2.6rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.mdiv2b1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.mdiv2b2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.imgbanda{
+    height: 20rem;
+}
+
+
+.btnvotarjs{
+    height: 2.5rem;
+    width: 3.5rem;
+    background-color: #f2e0a5;
+    font-size: large;
+    border: solid 0.1rem #f2e0a5;
+}

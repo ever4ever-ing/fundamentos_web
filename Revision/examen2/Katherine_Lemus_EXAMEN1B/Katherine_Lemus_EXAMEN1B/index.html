@@ -1,0 +1,85 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eventastico</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <h1 class=>EVENT </h1>
+                    <h1>ASTICO</h1>
+                    <div class="esfera"></div>
+                </div>
+                <ul class="div-nav1">
+                    <li><a href="#"><b>Inicio</b></a></li> 
+                </ul>
+                <ul class="div-nav2">                   
+                    <li><a href="#"><b>¿Cómo funciona?</b></a></li>
+                    <li><a href="#"><b>Ayuda</b></a></li>
+                </ul>
+                <button id="button1">Registro</button>
+                <button id="button2" onclick="hide(this)">Crear evento</button>
+            </nav>
+        </header>
+        <main>
+            <div class="mapa">
+                <img src="img/mapa-1.png" alt="mapa1">
+            </div>
+            <div class="navbar2">
+                <ul class="eventos">
+                    <li><a href="#"><b>Eventos cercanos</b></a></li>  
+                    <button id="mapanuevo" onclick="changePage()"> Nuevos eventos</button>                    
+                </ul>
+                <input type="text"class="buscareventos" placeholder="Buscar Eventos"/>    
+                <button id="button3">Buscar</button>
+                <select name="select" id="select">
+                    <option disabled selected>Ordenar por relevancia</option>
+                    <option value="opcion1">Música</option>
+                    <option value="opcion2">Arte</option>
+                </select>
+            </div>
+            <div class="contenedor3">
+                <div class="evento1">
+                    <button id="button4" type="button" class="misbotones">
+                        <img id="asistente1" src="img/asistentes.png" alt="asistentes">  
+                    </button>    
+                    <img id="cambiar" src="img/evento-tecnologia.jpg" alt="tecnologia">
+                    <h4 id="counter1" class="counter">0</h4>
+                    <h1>10 may</h1>
+                    <h3>Congreso de Tecnologia</h3>
+                    <h4></h4>
+                    <h4>Asistentes:</h4>                
+                </div>
+                <div class="evento2">
+                    <button id="button5" type="button" class="misbotones">
+                        <img id="asistente2" src="img/asistentes.png" alt="asistentes">  
+                    </button>    
+                    <img src="img/evento-verano.jpg" alt="verano">
+                    <h4 id="counter2" class="counter">0</h4>
+                    <h1>15 jul</h1>                   
+                    <h3>Fiesta de Verano</h3>
+                    <h4></h4>
+                    <h4>Asistentes:</h4>       
+                </div>
+                <div class="evento3">
+                    <button id="button6" type="button" class="misbotones">
+                        <img id="asistente3" src="img/asistentes.png" alt="asistentes">  
+                    </button>                       
+                    <img src="img/evento-navidad.jpg" alt="navidad">
+                    <h4 id="counter3" class="counter">0</h4>
+                    <h1>18 dic</h1>    
+                    <h3>Posada navideña</h3>
+                    <h4></h4> 
+                    <h4>Asistentes:</h4>      
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>       
+    </body>
+    </html>

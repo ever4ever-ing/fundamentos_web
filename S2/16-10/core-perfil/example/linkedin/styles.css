@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: rgb(220, 235, 235);
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.profile-header p {
+    margin: 5px 0;
+}
+
+.profile-body {
+    margin-top: 20px;
+}
+
+.experience p {
+    margin: 5px 0;
+}
+
+
+/*Grid container*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    grid-template-rows: 1fr 1fr; /* Dos filas */
+    gap: 20px; /* Espacio entre las secciones */
+  }
+  
+  .grid-container > div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5%;
+  }
+
+
+  /*Header-Nav*/
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.logout-btn {
+    background-color: #00b8d4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Flex container*/
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en varias líneas */
+    justify-content: space-between; /* Distribuir los elementos horizontalmente */
+  }
+  
+  .item {
+    flex-basis: calc(50% - 10px); /* Cada elemento ocupa el 50% del contenedor con margen */
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-sizing: border-box; /* Incluir el padding en el ancho del elemento */
+    margin-bottom: 20px; /* Espacio entre las filas */
+    border-radius: 5%;
+  }
+  
+  iframe {
+    width: 100%; /* El iframe ocupa todo el ancho del contenedor */
+    height: 100%; /* El iframe ocupa todo el alto del contenedor */
+    border: none; /* Sin borde para el iframe */
+  }

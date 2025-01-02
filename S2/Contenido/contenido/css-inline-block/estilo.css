@@ -1,0 +1,22 @@
+.contenedor {
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .caja {
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+  }  
+  .caja-inline {
+    display: inline-block;
+    background-color: lightblue;
+  }
+  .caja-block {
+    display: block;
+    background-color: lightcoral;
+  }
+  

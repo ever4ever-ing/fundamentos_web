@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Eventastico</title>
+</head>
+
+<body>
+    <header>
+
+        <img src="img/logo.png" alt="logo">
+        <ul class="nav-links">
+            <li><a href="#" id="activo">Inicio</a></li>
+            <li><a href="#">Como Funciona?</a></li>
+            <li><a href="#">Ayuda</a></li>
+        </ul>
+        <div>
+            <button class="registro">Registro</button>
+            <button class="crearEvento">Crear Evento</button>
+        </div>
+
+
+    </header>
+    <main>
+
+        <img class="banner" src="img/mapa-1.png" alt="mapa">
+
+
+
+        <div class="filtro">
+            <ul class="nav-links">
+                <li><a href="#" class="evento-activo">Eventos Cercanos</a></li>
+                <li><a class="cambiarImagen" href="#">Nuevos Eventos</a></li>
+            </ul>
+            <div>
+                <input type="search" class="buscador" placeholder="Buscar Eventos">
+                <button id="buscar">Buscar</button>
+            </div>
+            <select id="ordenar">
+                <option value="Ordenar">Ordenar por Relevancia</option>
+            </select>
+        </div>
+
+
+        <div class="contenedor-principal">
+            <div class="box-evento">
+                <img src="img/evento-tecnologia.jpg" alt="evento">
+                <div class="desc-evento">
+                    <h2>10<br>may</h2>
+                    <div>
+                        <h3>Congreso de Tecnologia</h3>
+                        <p>Asistentes:</p>
+                    </div>
+                    <i id="btn_1" class="fa-solid fa-person"> 5</i>
+                </div>
+            </div>
+            <div class="box-evento">
+                <img src="img/evento-verano.jpg" alt="evento">
+                <div class="desc-evento">
+                    <h2>15<br>jul</h2>
+                    <div>
+                        <h3>Fiesta de verano</h3>
+                        <p>Asistentes:</p>
+                    </div>
+                    <i id="btn_2" class="fa-solid fa-person"> 10</i>
+                </div>
+            </div>
+            <div class="box-evento">
+                <img src="img/evento-navidad.jpg" alt="evento">
+                <div class="desc-evento">
+                    <h2>18<br>dic</h2>
+                    <div>
+                        <h3>Posada navideña</h3>
+                        <p>Asistentes:</p>
+                    </div>
+                    <i id="btn_3" class="fa-solid fa-person"> 8</i>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

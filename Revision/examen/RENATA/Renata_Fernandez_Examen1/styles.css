@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    height: 60px;
+    width: 1360px;
+    background-color: #92c27c;
+    color: black;
+}
+
+h3{
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: xxx-large;
+}
+
+#palabra-verde1{
+    color: #00980e;
+}
+
+#palabra-verde2{
+    color: #b6d7a8;
+}
+
+#palabra-verde3{
+    color: #93c47d;
+}
+
+#palabra-blanca{
+    color: white;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    padding: 15px 3px;
+}
+
+.boton-estilizado1{
+    background-color: #b6d7a8;
+    border: none;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    font-size: large;
+    padding: 15px 3px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    position: absolute;
+    top: 80px;
+    right: 200px;
+}
+
+.boton-estilizado2{
+    background-color: #6aa84f;
+    border: none;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    font-size: large;
+    padding: 15px 3px;
+    text-align:center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+
+}
+
+hr{
+    position: absolute;
+    top: 40px;
+    height: 2px;
+    width: 1070px;
+    background-color: black;
+    margin: 10%;
+    justify-content: center;
+}
+
+#arboles {
+    color: black;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    right: 80px;
+}
+
+#arboles option{
+    color: black;
+    background-color: white;
+}
+
+.mostrando{
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    margin: 20px;
+}
+
+.contenedor1{
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #b6d7a8;
+    height: 200px;
+    width: 500px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 230px;
+    margin-left: 50px;
+    margin-right: 55px;
+    position: relative;
+    flex-direction: column;
+}
+
+.contenedor2{
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #b6d7a8;
+    height: 200px;
+    width: 500px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    position: relative;
+    flex-direction: column;
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    margin-right: 10px;
+}
+
+.texto-centrado{
+    width: 170px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    margin-right: 1000px;
+}
+
+.boton-cambiar{
+    background-color: #6aa84f;
+    color: black;
+    font-size: medium;
+    border: 1px solid ;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 70px;
+}
+
+.footerbar{
+    background-color: #93c47d;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 1356px;
+    height: 120px;
+
+}
+
+.footerbar .contacto,
+.footerbar .datos1,
+.footerbar .datos2{
+    margin-bottom: 20px;
+    flex: 1 1 200px;
+}
+
+.footerbar h3{
+    margin: 10px;
+    font-size: 18px;
+}
+
+.footerbar p,
+.footerbar ul,
+.footerbar li{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.footerbar ul {
+    padding-left: 0;
+}
+
+.footerbar ul.datos1,
+.footerbar ul.datos2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footerbar a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footerbar a:hover {
+    text-decoration: underline;
+}
+
+.email{
+    background-color: #6aa84f;
+    border: 1px solid;
+    border-radius: 2px;
+}

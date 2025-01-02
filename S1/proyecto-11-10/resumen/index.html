@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Un formulario estético de ejemplo con varios tipos de campos.">
+    <meta name="keywords" content="formulario, ejemplo, HTML, CSS, Font Awesome">
+    <meta name="author" content="Tu Nombre">
+    <title>Formulario Estético</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de Ejemplo</h2>
+        <form>
+            <label for="text"><i class="fas fa-font"></i> Texto:</label>
+            <input type="text" id="text" name="text">
+
+            <label for="password"><i class="fas fa-lock"></i> Contraseña:</label>
+                <input type="password" id="password" name="password"> <!-- Ctrl + K Ctrl+ F para formatear codigo html-->
+
+            <label for="email"><i class="fas fa-envelope"></i> Correo Electrónico:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="number"><i class="fas fa-hashtag"></i> Número:</label>
+            <input type="number" id="number" name="number">
+
+            <label for="date"><i class="fas fa-calendar-alt"></i> Fecha:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="color"><i class="fas fa-palette"></i> Color:</label>
+            <input type="color" id="color" name="color">
+
+            <label for="range"><i class="fas fa-sliders-h"></i> Rango:</label>
+            <input type="range" id="range" name="range">
+
+            <label for="file"><i class="fas fa-file-upload"></i> Archivo:</label>
+            <input type="file" id="file" name="file">
+
+            <label for="select"><i class="fas fa-list"></i> Seleccionar:</label>
+            <select id="select" name="select">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select>
+
+            <label for="textarea"><i class="fas fa-align-left"></i> Área de Texto:</label>
+            <textarea id="textarea" name="textarea" rows="4"></textarea>
+
+            <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

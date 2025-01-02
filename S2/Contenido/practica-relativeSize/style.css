@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 1rem; /* 1rem: La unidad 'rem' es relativa al tamaño de la fuente raíz del documento. Aquí, 1rem es igual al tamaño de la fuente raíz. */
+  line-height: 1.5; /* 1.5: Esta es una unidad relativa que multiplica el tamaño de la fuente actual para determinar la altura de la línea. */
+  min-height: 100vh; /* 100vh: 'vh' es una unidad relativa al 1% de la altura de la ventana gráfica (viewport). Aquí, el mínimo alto del cuerpo es igual al 100% de la altura de la ventana gráfica. */
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.25rem; /* 1.25rem: Esta unidad es relativa al tamaño de la fuente raíz del documento. Aquí, el padding es igual a 1.25 veces el tamaño de la fuente raíz. */
+}
+nav {
+  background-color: #dda8a8;
+  border: 0.625rem solid #ddd; /* 0.625rem: Esta unidad es relativa al tamaño de la fuente raíz del documento. Aquí, el borde es igual a 0.625 veces el tamaño de la fuente raíz. */
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  background-color: aqua;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0.625rem; /* 0.625rem: Esta unidad es relativa al tamaño de la fuente raíz del documento. Aquí, el padding es igual a 0.625 veces el tamaño de la fuente raíz. */
+  margin: 0.625rem; /* 0.625rem: Esta unidad es relativa al tamaño de la fuente raíz del documento. Aquí, el margen es igual a 0.625 veces el tamaño de la fuente raíz. */
+  background-color: chartreuse;
+}
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.seccion-izquierda, .seccion-derecha {
+  padding: 1.25rem; /* 1.25rem: Esta unidad es relativa al tamaño de la fuente raíz del documento. Aquí, el padding es igual a 1.25 veces el tamaño de la fuente raíz. */
+}
+.seccion-izquierda {
+  width: 100%; /* 100%: Esta unidad es relativa al contenedor padre. Aquí, el ancho es igual al 100% del ancho del contenedor padre. */
+}
+.seccion-derecha {
+  width: 100%; /* 100%: Esta unidad es relativa al contenedor padre. Aquí, el ancho es igual al 100% del ancho del contenedor padre. */
+  background-color: #f7f7f7;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem; /* 1.25rem: Esta unidad es relativa al tamaño de la fuente raíz del documento. Aquí, el padding es igual a 1.25 veces el tamaño de la fuente raíz. */
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* 100%: Esta unidad es relativa al contenedor padre. Aquí, el ancho es igual al 100% del ancho del contenedor padre. */
+}
+
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+  }
+  .seccion-izquierda {
+    width: 60%; /* 60%: Esta unidad es relativa al contenedor padre. Aquí, el ancho es igual al 60% del ancho del contenedor padre. */
+  }
+  .seccion-derecha {
+    width: 40%; /* 40%: Esta unidad es relativa al contenedor padre. Aquí, el ancho es igual al 40% del ancho del contenedor padre. */
+  }
+}

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    background-color: #93c47d;
+    padding:15px 0;
+    text-align: center;
+}
+
+nav {
+    border-bottom: #333 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #009e0f;
+}
+
+.logo span:nth-child(1) {
+    color: #b6d7a8;
+}
+
+.logo span:nth-child(2) {
+    color: #93c47d;
+}
+
+.right-header {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-header button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.right-header button:nth-child(1) {
+    background-color: #b6d7a8;
+}
+
+.right-header button:nth-child(2) {
+    background-color: #6aa84f;
+}
+
+main {
+    padding: 20px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter h3 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.product {
+    flex: 1;
+    background-color: #eeeeee;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.product h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 200px;
+}
+
+.product button {
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #b6d7a8;
+    border: none;
+}
+
+.product p {
+    font-size: 15px;
+}
+
+footer {
+    background-color: #93c47d;
+    padding: 30px 195px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.contactanos, .links {
+    flex: 2;
+}
+
+.suscribete {
+    flex: 3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactanos h5 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.suscribete h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.suscribete form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.suscribete form input {
+    padding: 5px 10px;
+}
+
+.suscribete form button {
+    border: none;
+    background-color: #38761d;
+    padding: 5px 10px;
+    color: white;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoptaTuÁrbol</title>
+    <link rel="icon" type="image/png" href="img/icon.png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- defer para que el script se ejecute después de que se cargue el DOM -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="barra"><h5>Tu plataforma favorita de adopción de árboles</h5></div>
+    <div class="cuerpo">
+        <header class="header">
+            <h1 id="titulo">
+                <span class="color1">Adopta</span>
+                <span class="color2">Tu</span>
+                <span class="color3">Árbol</span>
+            </h1>
+            <nav class="nav">
+
+                <button class="Adoptar">Adoptar</button>
+                <button class="Donar">Donar</button>
+                
+            </nav>
+        </header>
+        <main>
+            <div class="show">
+                <span id="mostrarFiltro">Mostrando: Todos los árboles</span>
+                <select id="mostrando" name="mostrando" onchange="filtrar(this)">
+                    <option value="todo">Todos los árboles</option>
+                    <option value="frutales">Árboles frutales</option>
+                    <option value="nativos">Árboles nativos</option>
+                    <option value="flores">Árboles de flor</option>
+                    <option value="ornamental">Árboles ornamentales</option>
+                </select>
+            </div>
+
+            <div class="main-content">
+                <div class="arboles">
+                    <img src="img/alamo.jpg" alt="alamo" class="arbol-img">
+                    <div class="info">
+                        <h2 class="nombreArbol">Álamo</h2>
+                        <p>Árbol caducifolio, de hojas anchas y con largos peciolos.</p>
+                    </div>
+                    <button class="Adoptar2">Adoptar</button>
+                </div>
+
+                <div class="arboles">
+                    <img src="img/fresno.jpg" alt="fresno" class="arbol-img">
+                    <div class="info">
+                        <h2 class="nombreArbol">Fresno</h2>
+                        <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+                    </div>
+                    <button class="Adoptar2">Adoptar</button>
+                </div>
+        
+                <div class="arboles">
+                    <img src="img/pino.jpg" alt="pino" class="arbol-img">
+                    <div class="info">
+                        <h2 class="nombreArbol">Pino</h2>
+                        <p>Árbol de la familia de las abietáceas de tronco elevado, recto.</p>
+                    </div>
+                    <button class="Adoptar2">Adoptar</button>
+                </div>
+                <div class="arboles">
+                    <img src="img/jacaranda.jpg" alt="jacaranda" class="arbol-img">
+                    <div class="info">
+                        <h2 class="nombreArbol">Jacarandá</h2>
+                        <p>Árbol de copa extendida y redondeada con flores.</p>
+                    </div>
+                    <button class="Adoptar2">Adoptar</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="piedepagina">
+        <div class="Contacto">
+            <h2 class="footerTitle">Contáctanos</h2>
+            <p>Av. Principal #123<br>
+                Ciudad Palma 10000<br>
+                Chile
+            </p>
+        </div>
+        <div class="lista">
+            <ul>
+                <li>Inicio</li>
+                <li>Sobre Nosotros</li>
+                <li>Adopta un Árbol</li>
+            </ul>
+        </div>
+        <div class="lista">
+            <ul>
+                <li>Contacto</li>
+                <li>Patrocinadores</li>
+                <li>Proyectos</li>
+            </ul>
+        </div>
+        <div class="suscripcion">
+            <h2 class="footerTitle">Suscríbete</h2>
+            <form>
+                <input type="email" id="email" name="email" placeholder="usuario@correo.com" required><br><br>
+                <input type="submit" class="btn-enviar" value="enviar">
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

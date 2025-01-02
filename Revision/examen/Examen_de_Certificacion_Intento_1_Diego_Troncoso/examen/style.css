@@ -1,0 +1,272 @@
+/*reseteo pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*HEADER////////////////*/
+
+.headerDiv{
+    background-color: #89bc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.9rem;
+}
+
+/* MAIN/////////////////*/
+/*mainDiv1////*/
+.mainDiv1{
+    background-color: #ffffff;
+    display: flex;
+    height: 10rem;
+    flex-direction: column;
+}
+
+.mainDiv1a{
+    background-color: #ffffff;
+    display: flex;
+    flex: 1;
+    margin: 0rem 20rem 0rem 20rem;
+    border-bottom: solid 0.2rem black;
+    flex-direction: row;
+}
+
+.mainDiv1a1{
+    display: flex;
+    background-color: #ffffff;
+    flex: 3;
+    align-items: center;
+}
+
+.mainDiv1a2{
+    display: flex;
+    background-color: #ffffff;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+#adoptarbtn{
+    background-color: #a9c59d;
+    width: 6rem;
+    height: 3rem;
+    border: solid 0.2rem #a9c59d;
+}
+
+#donarbtn{
+    background-color: #53983b;
+    width: 6rem;
+    height: 3rem;
+    margin-left: 2rem;
+    border: solid 0.2rem #53983b;
+}
+
+.mainDiv1b{
+    display: flex;
+    background-color: #ffffff;
+    flex: 1;
+    margin: 0rem 20rem 0rem 20rem;
+    align-items: center;
+}
+
+.mainDiv1b1{
+    background-color: #ffffff;
+    flex: 3;
+}
+
+.mainDiv1b2{
+    background-color: #ffffff;
+    flex: 1;
+}
+
+/*mainDiv2//////////*/
+
+.mainDiv2{
+    background-color: #ffffff;
+    display: flex;
+    height: 22.5rem;
+}
+
+.mainDiv2a{
+    display: flex;
+    background-color: #ebebeb;
+    flex: 1;
+    margin: 2rem 2rem 2rem 20rem;
+    border-radius: 1.5rem;
+    flex-direction: row;
+
+}
+
+.mainDiv2b{
+    display: flex;
+    background-color: #ebebeb;
+    flex: 1;
+    margin: 2rem 20rem 2rem 2rem;
+    border-radius: 1.5rem;
+    flex-direction: row;
+}
+
+/*mainDiv3////////////////*/
+
+.mainDiv3{
+    background-color: #ffffff;
+    display: flex;
+    height: 22.5rem;
+}
+
+.mainDiv3a{
+    display: flex;
+    background-color: #ebebeb;
+    flex: 1;
+    margin: 2rem 2rem 2rem 20rem;
+    border-radius: 1.5rem;
+    flex-direction: row;
+}
+
+.mainDiv3b{
+    display: flex;
+    background-color: #ebebeb;
+    flex: 1;
+    margin: 2rem 20rem 2rem 2rem;
+    border-radius: 1.5rem;
+    flex-direction: row;
+}
+/*CONTENIDO MAINDIVS PRINCIPALES*/
+#contenido1{
+    display: flex;
+    background-color: #ebebeb;
+    flex: 1;
+    height: 18.5rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenido2{
+    display: flex;
+    background-color: #ebebeb;
+    flex: 1;
+    height: 18.5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenido3{
+    display: flex;
+    background-color: #ebebeb;
+    flex: 1;
+    height: 18.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    justify-content: end;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+img{
+    height: 12rem;
+}
+
+#adoptarbtn1{
+    background-color: #a9c39d;
+    width: 6rem;
+    height: 3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+#adoptarbtn2{
+    background-color: #a9c39d;
+    width: 6rem;
+    height: 3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+#adoptarbtn3{
+    background-color: #a9c39d;
+    width: 6rem;
+    height: 3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+#adoptarbtn4{
+    background-color: #a9c39d;
+    width: 6rem;
+    height: 3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+/*FOOTER////////////////////////*/
+
+.footerDiv{
+    background-color: #6c9458;
+    display: flex;
+    height: 16rem;
+}
+
+.footerDiv1{
+    display: flex;
+    background-color: #6c9458;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20rem;
+
+}
+
+.footerDiv2{
+    display: flex;
+    background-color: #6c9458;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerDiv3{
+    display: flex;
+    background-color: #6c9458;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerDiv4{
+    display: flex;
+    background-color: #6c9458;
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20rem;
+}
+
+.suscribete{
+    background-color: black;
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.email{
+    background-color: white;
+    flex: 3;
+    border: solid 0.12rem black;
+}
+
+.btnemail{
+    flex: 1;
+}
+
+.btnenviar{
+    background-color: #244613;
+    height: 2rem;
+    width: 5rem;
+    border: solid 0.2rem #244613;
+}

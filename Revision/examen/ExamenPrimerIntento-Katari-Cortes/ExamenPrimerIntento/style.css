@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #92c47d;
+    text-align: center;
+    font-size: 100%;
+    font-family: "Roboto", serif;
+    padding: 0.7%;
+}
+
+main{
+    width: 75rem;
+    margin-left: 10rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #92c47d;
+    font-family: "Roboto", serif;
+    width: 100%;
+}
+
+.container1{
+    width: 75rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    border-bottom: 0.1rem black solid;
+}
+
+.container1 h1{
+    font-family: "Roboto", serif;
+    font-size: 250%;
+    color: #05990b;
+}
+
+.container1-btn{
+    display: flex;
+    align-items: center;
+}
+
+#button1{
+    background-color: #b8d7ab;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    border: none;
+}
+
+#button2{
+    background-color: #6aa950;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    width: 75rem;
+    font-family: "Roboto", serif;
+    margin-top: 0.5rem;
+}
+
+.container2info{
+    display: flex;
+}
+
+.container2 h2{
+    font-size: 110%;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    width: 75rem;
+    padding-bottom: 1rem;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arbol1{
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    width: 35rem;
+    height: 13rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.arbol2{
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    width: 35rem;
+    height: 13rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+.imgArbol{
+    width: 12rem;
+    height: 6rem;
+    margin: 1rem;
+}
+
+.description{
+    font-family: "Roboto", serif;
+    margin: 2rem;
+    width: 9rem;
+}
+
+.btn{
+    background-color: #b8d7ab;
+    width: 5rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border: none;
+}
+
+.info1{
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: small;
+}
+
+.info2{
+    margin-right: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: small;
+}
+
+.buttonEnviar{
+    background-color: #05990b;  
+    color: #ffff;
+    font-family: "Roboto", serif;
+    width: 3rem;
+}
+
+h2{
+    color: #ffff;
+    margin-bottom: 0.5rem;
+}
+
+.infoP{
+    font-weight: bold;
+    font-size: small;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+}
+
+.cambio {
+    background-color: #6aa950;
+    color: #ffffff;
+}

@@ -1,0 +1,83 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* Definimos dos columnas, una más grande que la otra */
+
+}
+.header {
+  grid-area: header;
+  /* Asignamos el área "header" */
+  background-color: #f5e3bd;
+  height: 150px;
+}
+.main {
+  height: 700px;
+  width: 1900px;
+  background-color: rgb(255, 255, 255);
+  flex: 0 0 80%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.texto1 {
+  width: 760px;
+  height: 300px;
+  margin-left: 30px;
+  border: solid 1px black;
+  position: relative;
+  top: 20px;
+}
+
+.texto2 {
+  width: 760px;
+  height: 300px;
+  margin-left: 30px;
+  border: solid 1px black;
+  position: relative;
+  top: 100px;
+  left: -30px;
+}
+
+.texto3 {
+  width: 500px;
+  height: 300px;
+  margin-left: 30px;
+  border: solid 1px black;
+  position: relative;
+  top: -550px;
+  left: 1000px;
+}
+
+.footer {
+  grid-area: footer;
+  /* Asignamos el área "footer" */
+  background-color: #ccc;
+}
+.search-container {
+  display: flex;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #3a5a80;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+button:hover {
+  background-color: #7393b6;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalla Musical</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="enlaces">
+                <a href="#">Inicio de Sesión</a> - <a href="#">Registro</a>
+            </div>
+            <div class="iconos">
+                <img src="img/mapa.png" alt="mapa">
+                <img src="img/perfil.png" alt="perfil">
+                <img src="img/mensajes.png" alt="mensajes">
+            </div>
+        </div>
+        <div class="logo">
+            <img src="img/rayo.png" alt="rayo">
+            <h1>Batalla Musical</h1>
+            <img src="img/rayo.png" alt="rayo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Géneros</a></li>
+                <li><a href="#">Batallas Pasadas</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Patrocinadores</a></li>
+                <li><a href="#">Inscripciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <h4>Filtros</h4>
+            <div class="select">
+                <p>Género Musical</p>
+                <img src="img/selector.png" alt="selector">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="">Clásica</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="">Rock</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="">Jazz</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="">Pop</label>
+            </div>
+            <div id="second-select" class="select">
+                <p>Época</p>
+                <img src="img/selector.png" alt="selector">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="">Años 80s</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="">Años 90s</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="">Años 2000</label>
+            </div>
+            <button onclick="alerta()">Filtrar</button>
+        </aside>
+        <main>
+            <h2>Votaciones</h2>
+            <div class="bandas">
+                <div class="banda">
+                    <img src="img/banda-1.jpg" alt="banda 1">
+                    <h3>Strawberry Fields Forever</h3>
+                    <div id="votos-1" class="votaciones">157</div>
+                    <button class="btn-1" onclick="votar(1)">Votar</button>
+                </div>
+                <div class="banda">
+                    <img src="img/banda-2.jpg" alt="banda 2">
+                    <h3>Las Piedras Rodantes</h3>
+                    <div id="votos-2" class="votaciones">108</div>
+                    <button class="btn-2" onclick="votar(2)">Votar</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

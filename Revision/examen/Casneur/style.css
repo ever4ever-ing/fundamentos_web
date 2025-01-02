@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+
+.container {
+    background-color: rgb(12, 11, 11);
+    height: 117px;
+    margin: 20px;
+
+
+}
+
+#primertexto {
+    height: 10px;
+    background-color: #339933;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.div1 {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.div1 h1 {
+    font-size: 28px;
+    color: #339933;
+    margin: 0;
+}
+
+
+.div1-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#btn1 {
+    background-color: #339933;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#btn2 {
+    background-color: #339933;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dividir {
+    border: none;
+    border-top: px solid #000;
+    /* línea negra de 2px */
+    margin: 2px 0;
+    /* espacio arriba y abajo */
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid white;
+
+}
+
+.sub-header p {
+    margin: 0;
+    font-size: 16px;
+}
+
+#bandas1 {
+    cursor: pointer;
+}
+
+
+main.tree-grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.tree-card {
+    height: 250px;
+    width: 600px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tree-card img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.tree-info {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.tree-info h2 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.tree-info p {
+    margin: 0;
+    color: #555;
+    text-align: center;
+}
+
+.adopt-btn {
+    background-color: #339933;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adopt-btn:hover {
+    background-color: #2f1894;
+}
+
+.adopt-btn.adoptado {
+    background-color: #004d00;
+    /* Color oscuro para "Adoptado" */
+}
+
+footer {
+    background-color: #8BC34A;
+    padding: 20px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.contact-info h3,
+.subscribe h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin: 5px 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+.subscribe form {
+    display: flex;
+}
+
+.subscribe input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 200px;
+}
+
+.subscribe button {
+    padding: 8px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #45a049;
+}
+

@@ -1,0 +1,484 @@
+.container {
+    background-color: rgb(172, 168, 199);
+    margin: 0px;
+    border-radius: 8px;
+    height: 1000px;
+    width: 1460px;
+
+  }
+
+
+.div-relativo1 {
+    position: relative;
+    top: 40px; /*desde arriba*/
+    left: 30px;
+    height: 150PX;
+    width: 790PX;
+    background-color: RGB(0, 188, 212);
+    border-radius: 20px;
+  }
+
+.div-relativo2 {                   /*Contenedor de Texto perfil personal*/
+    position: relative;
+    top: 15px; /*desde arriba*/
+    left: 30px;
+    height: 470px;
+    width: 790PX;
+    background-color: RGB(255, 255, 255);
+    display: flex;
+    flex-direction: column;   
+    text-align: start;     /**/
+    border-radius: 5px;
+    
+  }
+
+.div-relativo3 {
+    position: absolute;
+    top: -130px; 
+    left: 850px;
+    height: 200px;
+    width: 550PX;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;    
+  }
+
+/* Contenedor Personas coenctadas*/
+
+.div-relativo4 {
+    position: absolute;
+    top: 360px; 
+    left: 885px;
+    height: 600px;
+    width: 550PX;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;    
+  }  
+
+  .text3 {                                /*Texto personas coenctadas*/
+    position: relative;
+    display: flex;
+    text-align: start;
+    width: 400px;
+    height: 50px;
+    left: 70px;
+    top: 30px;
+    background-color: white;
+
+  }
+
+/*       CONTENEDOR  EDUCATION                */
+
+.div-relativo5 {
+    position: relative;
+    top: 50px; 
+    left: 30px;
+    height: 200px;
+    width: 790PX;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;    
+    text-align: start;
+  }  
+
+.text2 {                                /*Texto EDUCATION*/
+    position: relative;
+    display: flex;
+    text-align: start;
+    width: 200px;
+    height: 50px;
+    left: 50px;
+    top: 30px;
+    background-color: white;
+
+  }
+  
+.text2b {                             /*Texto 2 EDUCATION*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 390px;
+    height: 50px;
+    left: 20px;
+    top: 30px;
+    background-color: white;
+    
+  }  
+
+
+/*                 */
+
+
+p {
+    text-align: start;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(105, 84, 70, 0.574);
+  
+  }
+
+
+h5 {
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(105, 84, 70, 0.574);
+  
+  }
+
+.perfilpersonal {                     /*Texto informacion personal*/
+
+  position: relative;
+  text-align: start;
+  top: 100px;
+  left: 40px;
+  width: 700px;
+  }
+
+
+.button1{                             /*Boton edit profile*/
+    position: absolute;
+    top: 85%;
+    left: 50px;
+    /*margin: 95px;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.profile {                          /*Icono gato*/
+  position: absolute;
+  width: 170PX;
+  height: 170PX;
+  border-radius: 50%;
+  border: 4px solid white; 
+  top: 50px;
+  left: -780px;
+
+}
+
+/*Barra de navegación*/
+
+.navbar {                             
+  background-color: RGB(51, 51, 51);
+  color: #fff;
+  align-items: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {                 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+
+}
+.logo img{                 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: crimson;
+  border: 1px solid white;
+}
+
+.nav-links {                 
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.nav-links li {
+  margin-right: 20px;
+  /*border: 1px solid white;        */
+  border-radius: 10px;
+  padding: 20px;
+  /*background-color: black;*/
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: rgb(71, 204, 197);
+}
+
+/****************************************/
+
+/*Boton CERRAR SESION*/
+
+
+.cerrar {
+  color: white;
+  background-color: RGB(0, 188, 212);
+  justify-content: end; 
+  position: absolute;
+  top: 40PX;
+  left: 1250px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/******************************************/
+
+.solicitud {              /* TEXTO "Solicitud amistad" */
+  position: absolute;
+  top: -5px;
+  left: 130px;
+  width: 300PX;
+  color: black;   
+}
+
+.profile2 {                     /*Avatar Solicitud 1*/
+  position: absolute;
+  width: 50PX;
+  height: 50PX;
+  border-radius: 20%;
+  border: 3px solid RGB(0, 188, 212); 
+  top: 60px;
+  left:75px;
+}
+
+
+.textprofile2 {             /* Texto Solicitud Persona 1 */
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  width: 200PX;
+  color: black; 
+  
+}
+
+.profile3 {                     /*Avatar Solicitud 2*/
+  position: absolute;
+  width: 50PX;
+  height: 50PX;
+  border-radius: 20%;
+  border: 3px solid RGB(0, 188, 212); 
+  top: -5px;
+  left: 925px;
+}
+
+.textprofile3 {             /* Texto Solicitud Persona 2 */
+  position: absolute;
+  top: -10px;
+  left: 1000px;
+  width: 200PX;
+  color: black; 
+  
+}
+
+.aceptar1 {                          /*Aceptar solicitud 1*/
+  position: absolute;
+  width: 40PX;
+  height: 40PX;
+  border-radius: 50%;
+  border: 4px solid white; 
+  top: -65px;
+  left: 1150px;
+  background-color: antiquewhite;
+
+}
+
+.aceptar2 {                          /*Aceptar solicitud */
+  position: absolute;
+  width: 40PX;
+  height: 40PX;
+  border-radius: 50%;
+  border: 4px solid white; 
+  top: -5px;
+  left: 1150px;
+  background-color: antiquewhite;
+
+}
+
+.negar1 {                          /*Negar solicitud */
+  position: absolute;
+  width: 40PX;
+  height: 40PX;
+  border-radius: 50%;
+  border: 4px solid white; 
+  top: -65px;
+  left: 1250px;
+  background-color: antiquewhite;
+
+}
+
+.negar2 {                          /*Negar solicitud 2*/
+  position: absolute;
+  width: 40PX;
+  height: 40PX;
+  border-radius: 50%;
+  border: 4px solid white; 
+  top: -5px;
+  left: 1250px;
+  background-color: antiquewhite;
+
+}
+
+/* AMISTADES */
+
+.profile4 {                     /*Avatar AMIGO1 */
+  position: absolute;
+  width: 60PX;
+  height: 60PX;
+  border-radius: 50%;
+  border: 2px solid black; 
+  top: 120px;
+  left: 75px;
+}
+
+.amigo1 {                     /* Texto Amigo 1*/
+  position: absolute;
+  top: 120px;
+  left: 160px;
+  width: 200PX;
+  color: black; 
+  
+}
+
+.profile5 {                     /*Avatar AMIGO2 */
+  position: absolute;
+  width: 60PX;
+  height: 60PX;
+  border-radius: 50%;
+  border: 2px solid black; 
+  top: 190px;
+  left: 75px;
+}
+
+.amigo2 {                     /* Texto Amigo 2*/
+  position: absolute;
+  top: 190px;
+  left: 160px;
+  width: 200PX;
+  color: black; 
+  
+}
+
+.profile6 {                     /*Avatar AMIGO3 */
+  position: absolute;
+  width: 60PX;
+  height: 60PX;
+  border-radius: 50%;
+  border: 2px solid black; 
+  top: 260px;
+  left: 75px;
+}
+
+.amigo3 {                     /* Texto Amigo 3*/
+  position: absolute;
+  top: 260px;
+  left: 160px;
+  width: 200PX;
+  color: black; 
+  
+}
+
+
+.profile7 {                     /*Avatar AMIGO4 */
+  position: absolute;
+  width: 60PX;
+  height: 60PX;
+  border-radius: 50%;
+  border: 2px solid black; 
+  top: 330px;
+  left: 75px;
+}
+
+.amigo4 {                     /* Texto Amigo 4*/
+  position: absolute;
+  top: 330px;
+  left: 160px;
+  width: 200PX;
+  color: black; 
+  
+}
+
+.profile8 {                     /*Avatar AMIGO5 */
+  position: absolute;
+  width: 60PX;
+  height: 60PX;
+  border-radius: 50%;
+  border: 2px solid black; 
+  top: 400px;
+  left: 75px;
+}
+
+.amigo5 {                     /* Texto Amigo 5*/
+  position: absolute;
+  top: 400px;
+  left: 160px;
+  width: 200PX;
+  color: black; 
+  
+}
+
+.profile9 {                     /*Avatar AMIGO 6 */
+  position: absolute;
+  width: 60PX;
+  height: 60PX;
+  border-radius: 50%;
+  border: 2px solid black; 
+  top: 470px;
+  left: 75px;
+}
+
+.amigo6 {                     /* Texto Amigo 6*/
+  position: absolute;
+  top: 470px;
+  left: 160px;
+  width: 200PX;
+  color: black; 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***ICONOS*****/
+/*.profile2 {
+  position: absolute;
+  width: 100PX;
+  height: 100PX;
+  border-radius: 50%;
+  border: 4px solid rgb(30, 9, 97); 
+  top: -50px;
+  left:900px;
+} */
+
+
+
+

@@ -1,0 +1,86 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+header{
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+header h2, button{
+margin: 20px;
+}
+
+header input{
+    width: 600px;
+}
+
+.box3 button{
+    background-color: #008001 ;
+    color: #ffffff;
+}
+
+.buttonIniciar{
+    background-color: #2b8ef5;
+    color: white;
+}
+
+#buttonMegusta1, #buttonMegusta2{
+    background-color: #feffcf;
+}
+
+.containerIzquierdo{
+    display: flex;
+    margin:10px;
+    gap: 10px;
+    flex-direction:column;
+    
+}
+
+.box1{
+    border: black solid 1px;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.box2{
+    border: black solid 1px;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.box3{
+    border: black solid 1px;
+    height: 30%;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.containerDerecho{
+    display: flex;
+    margin:10px;
+    flex-direction:row;
+}
+
+#mains{
+    display: flex;
+    justify-content: space-between
+}

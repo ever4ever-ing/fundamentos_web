@@ -1,0 +1,34 @@
+.contenedor {
+    position: relative; /* Establece el contexto de posición para las cajas internas */
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+  }
+  .caja {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 1px;
+    border: 1px solid blue;
+    border-radius: 50%;
+  }
+  .caja1 {
+    position: static; /* Posición predeterminada: se mantiene en el flujo normal del documento */
+  }
+  .caja2 {
+    position: relative; /* Posición relativa: se desplaza desde su posición normal */
+    top: 2px; /* Se desplaza 20px hacia abajo desde su posición normal */
+    left: 22px; /* Se desplaza 20px hacia la derecha desde su posición normal */
+  }
+  
+  .caja3 {
+    position: absolute; /* Posición absoluta: se posiciona con respecto al primer ancestro posicionado */
+    top: 2px; /* Se posiciona 50px desde la parte superior del contenedor relativo */
+    right: 20px; /* Se posiciona 10px desde el lado derecho del contenedor relativo */
+  }
+  
+
+  /*
+  BUEN EJEMPLO
+  https://developer.mozilla.org/en-US/docs/Web/CSS/position
+  */

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petlopedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class = "petlopedia">
+            <h1>Petlopedia</h1>
+        </div>
+        <div >
+            <input type="text" name="Buscar Mascotas" id="buscar" placeholder="Buscar mascotas">
+        </div>
+        <div>
+            <button id="boton1" onclick="botonIniciar(this)">Iniciar Sesion</button>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor1">
+            <div class="contenedor1_a">
+                <h1>Gato Atigrado</h1>
+                <p> <em>sustantivo</em></p>
+                <p>Plural: Gatos Atigrados</p>
+                <p>Un gato con pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente</p>
+            </div>
+            <div>
+                <button id="boton2" onclick="alertaGatoAtigrado(this); megustaGato(this)">Me gusta</button>
+            </div>
+        </div>
+        <div class="contenedor2">
+            <div class="contenedor2_a">
+                <h1>Golden Retriever</h1>
+                <p> <em>sustantivo</em></p>
+                <p>Plural: Golden Retrievers</p>
+                <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos</p>
+            </div>
+            <div>
+                <button id="boton3" onclick="alertaGoldenRetriever(this); megustaGolden(this)">Me gusta</button>
+            </div>
+        </div>
+        <div class="contenedor3">
+            <p class="contenedor3_a">Petlopedia está definida por TI</p>
+            <div>
+                <button id="boton4" onclick="desaparecer(this)">Agregar definición</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

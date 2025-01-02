@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contador de Me Gusta</title>
+</head>
+<body>
+
+    <button id="likeBtn">Me gusta</button>
+
+    <script>
+        var contador = 0;
+        var boton = document.getElementById('likeBtn');
+        
+        boton.addEventListener('click', function() {
+            contador++;
+            boton.textContent =  contador + ' Me gusta ';
+        });
+    </script>
+
+</body>
+</html>

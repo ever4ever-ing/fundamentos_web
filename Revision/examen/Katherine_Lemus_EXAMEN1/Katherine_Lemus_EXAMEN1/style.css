@@ -1,0 +1,360 @@
+*{
+    font-family: Arial, sans-serif;   
+}
+/*---------------------------------------------------------------------------------*/
+.header{
+    width: 1400px;
+    height: 50px;
+    background-color: RGB(147, 196, 125);
+    text-align: center;
+    padding-top: 1px; 
+    font-size: 10px;
+}
+
+/*----------------------------------------------------------------------------------*/
+main{
+    width: 1400px;
+    height: 700px;
+    background-color: RGB(255, 255, 255);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+/*----------------------------------------------------------------------------------*/
+.arriba1{
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    height: 70px;
+}   
+.texto1{
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 70px;
+    left: 250px;
+    top: 0px;
+    background-color: RGB(255, 255, 255);    
+}   
+
+.texto1 .h1{
+    color: RGB(0, 157, 12);
+}
+
+.texto1 .h2{
+    color: RGB(182, 215, 168);
+}
+
+.texto1 .h3{
+    color: RGB(147, 196, 125);
+}
+
+#button1{
+    position: relative;
+    left: 1000px;
+    top: -45px;
+    width: 100px;
+    cursor: pointer;
+    background-color: RGB(182, 215, 168);
+    font-size: 15px;
+}
+
+#button2{
+    position: relative;
+    left: 1200px;
+    top: -65px;
+    width: 100px;
+    cursor: pointer;
+    background-color: RGB(106, 168, 79);
+    font-size: 15px;
+    color: white;
+}
+
+/*------------------------------------------------------------------------------------*/
+.arriba2{
+    display: flex;
+    width: 1400px;
+    height: 70px;
+    background-color: RGB(255, 255, 255);
+}   
+
+.texto2{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 70px;
+    left: 180px;
+    top: 1px;
+    background-color: RGB(255, 255, 255);    
+    font-size: small;
+}  
+
+.select{
+    position: relative;
+    width: 150px;
+    height: 20px;
+    color: black;
+    left: 620PX;
+    top: 25px;
+    text-align: center;
+}
+/*-------------------Recuadros de los árboles----------------------------*/
+
+.alamo{
+    position: relative;  
+    display: flex;  
+    width: 600px;
+    height: 400px;
+    left: 60px;
+    top: 40px;
+    background-color: RGB(238, 238, 238);
+    border-radius: 5%;
+}
+
+.alamo img{
+    position: relative;    
+    width: 300px;
+    height: 200px;
+    left: 1px;
+    top: 1px;
+    padding: 5px;
+    background-color: RGB(238, 238, 238);
+    border-radius: 10%;
+}
+
+.alamo h2{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+
+.alamo h5{
+    position: relative;
+    top: 60px;
+    left: -30px;
+    width: 100px;
+}
+
+.pino{
+    position: relative;    
+    display: flex;
+    width: 600px;
+    height: 400px;
+    left: 60px;
+    top: 80px;
+    background-color: RGB(238, 238, 238);
+    border-radius: 5%;
+}
+
+.pino img{
+    position: relative;    
+    width: 300px;
+    height: 200px;
+    left: 5px;
+    top: 1px;
+    padding: 5px;
+    background-color: RGB(238, 238, 238);
+    border-radius: 10%;
+} 
+
+.pino h2{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.pino h5{
+    position: relative;
+    top: 60px;
+    left: -10px;
+    width: 100px;
+}
+
+.fresno{
+    position: relative;    
+    display: flex;
+    width: 600px;
+    height: 400px;
+    left: 720px;
+    top: -380px;
+    background-color: RGB(238, 238, 238);
+    border-radius: 5%;
+}
+
+.fresno h2{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.fresno h5{
+    position: relative;
+    top: 60px;
+    left:-30px;
+    width: 100px;
+}
+
+
+.fresno img{
+    position: relative;    
+    width: 300px;
+    height: 200px;
+    left: 5px;
+    top: 1px;
+    padding: 5px;
+    background-color: RGB(238, 238, 238);
+    border-radius: 10%;
+}
+
+.jacaranda{
+    position: relative;   
+    display: flex; 
+    width: 600px;
+    height: 400px;
+    left: 720px;
+    top: -340px;
+    background-color: RGB(238, 238, 238);
+    border-radius: 5%;
+}
+
+.jacaranda img{
+    position: relative;    
+    width: 300px;
+    height: 200px;
+    left: 5px;
+    top: 1px;
+    padding: 5px;
+    background-color: RGB(238, 238, 238);
+    border-radius: 10%;
+}
+
+.jacaranda h2{
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+.jacaranda h5{
+    position: relative;
+    top: 60px;
+    left:-75px;
+    width: 100px;
+}
+
+/*----------------------Botones de los árboles-------------------------------------------------*/
+
+#button3{
+    position: absolute;
+    left: 480px;
+    top: 90px;
+    cursor: pointer;
+    background-color: RGB(184, 217, 170);
+}
+
+#button4{
+    position: absolute;
+    left: 480px;
+    top: 90px;
+    cursor: pointer;
+    background-color: RGB(184, 217, 170);
+}
+
+#button5{
+    position: absolute;
+    left: 480px;
+    top: 90px;
+    cursor: pointer;
+    background-color: RGB(184, 217, 170);
+}
+
+#button6{
+    position: absolute;
+    left: 480px;
+    top: 90px;
+    cursor: pointer;
+    background-color: RGB(184, 217, 170);
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1400px;
+    height: 150px;
+    display: flex;
+    top: -1px;
+    background-color:  RGB(147, 196, 125);    
+}
+
+.abajo1{
+    display: flex;
+    position: relative;
+    width: 170px;
+    height: 140px;
+    left: 100px;
+}
+
+.abajo1 h2{
+    color: white;
+}
+
+.abajo1 h5{
+    position: relative;
+    top: 40px;
+    width: 140px;
+    height: 60px;
+    left: -140px;
+}
+
+.abajo2 h5{
+    position: relative;
+    top: -90px;
+    width: 130px;
+    height: 10px;
+    left: 380px;
+    margin: 20px;
+}
+
+.abajo3 h5{
+    position: relative;
+    top: -200px;
+    width: 130px;
+    height: 10px;
+    left: 650px;
+    margin: 20px;
+}
+
+.abajo4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -330px;
+    width: 320px;
+    height: 100px;
+    left: 1000px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.suscribete {
+    position: relative;
+    background-color: white;
+    width: 200px;
+    height: 160px;
+    left: 1px;
+    top: 10px;
+}
+
+#button7 {
+    width: 100px;
+    position: relative;
+    left: 210px;
+    top: -11px;
+    cursor: pointer;
+}

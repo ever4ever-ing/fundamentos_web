@@ -1,0 +1,31 @@
+/* Inline-block */
+
+/*
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: salmon;
+    display: inline-block;
+}
+*/
+
+/*Display Flex*/
+
+.container {
+    width: 800px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: salmon;
+    margin: 10px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="#" method="POST">
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" maxlength="7" id="nombre" name="nombre" placeholder="Name"/>
+            </div>
+            <div>
+                <label for="edad">Edad: </label>
+                <input type="number" id="edad" min="18" max="200"  name="edad" placeholder="18"/>
+            </div>
+            <div>
+                <label for="clave">Contraseña: </label>
+                <input type="password" minlength="8" id="clave" name="clave" />
+            </div>
+            <div>
+                <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" />
+            </div>
+            <div>
+                <label for="color_texto">Color del texto: </label>
+                <input type="color" id="color_texto" name="color_texto" />
+            </div>
+            <div>
+                <label>Estilo de fuente:</label>
+                <input type="radio" id="negrita" name="estilo_fuente" value="bold" />
+                <label for="negrita"><strong>Negrita</strong></label>
+                <input type="radio" id="normal" name="estilo_fuente" value="normal" />
+                <label for="normal">Normal</label>
+            </div>
+            <div>                
+                <input type="checkbox" id="acepto" name="acepto" />
+                <label for="acepto">Acepto los términos y condiciones</label>
+            </div>
+            <div>
+                <label for="comentario">Comentario: </label>
+                <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+            </div>
+            <div>
+                <label for="bandas">Bandas: </label>
+                <select id="bandas" name="bandas">
+                    <option value="almendras">Imagine Dragons</option>
+                    <option value="queso">The Weeknd</option>
+                    <option value="hummus">Twenty One Pilots</option></select
+                >
+            </div>
+            <input type="submit" value="EnviarAhora" />
+        </form>
+    </body>
+</html>

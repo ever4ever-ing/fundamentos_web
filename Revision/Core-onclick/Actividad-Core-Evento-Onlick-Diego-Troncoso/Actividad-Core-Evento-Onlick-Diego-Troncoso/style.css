@@ -1,0 +1,88 @@
+/*header////////////////////////////////*/
+.div-header{
+    background-color: #d3d3d3;
+    height: 3.5rem;
+    display: flex;
+    margin-left: 1rem;
+    width: 78rem;
+}
+
+.logo-h{
+    display: flex;
+    flex: 0.7;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.body-h{
+    flex: 5;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+#iniciarsesion{
+    background-color: #1d90fc;
+}
+/* Main Div////////////////////////////////////////*/
+
+main{
+    position: relative;
+}
+.main-div1{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.main-div2{
+    display: flex;
+    flex-direction: column;
+    width: 26rem;
+    position: absolute;
+    right: 25.5rem;
+    top: 0.1rem;
+    border: solid 0.1rem black;
+}
+
+/*Div sub a //////////////////////////////////////*/
+
+.diva1{
+    background-color: white;
+    width: 52rem;
+    margin-bottom: 1rem;
+    border: solid 0.1rem black;
+}
+
+#like1{
+    background-color: #fffece;
+}
+
+.diva2{
+    background-color: white;
+    width: 52rem;
+    border: solid 0.1rem black;
+}
+
+#like2{
+    background-color: #fffece;
+}
+
+/*Div sub b ////////////////////////////////*/
+
+.divb1{
+    background-color: white;
+}
+
+.divb2{
+    background-color: white;
+    align-self: center;
+}
+.AgregarDefinicion{
+    background-color: #008102;
+    width: 8rem;
+    height: 1.8rem;
+    border: solid 0.1rem black;
+}

@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cajas se envuelvan cuando no hay suficiente espacio */
+    justify-content: center; /*Start, Center, End*/
+    align-items: center; /*Start, Center, End*/
+    background-color: rgb(105, 203, 212);
+    height: 250px;
+    flex-direction: column;
+  }
+
+.row img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.row .rojo{
+    background-color: red;
+    padding: 30px;
+}
+
+.row .azul{
+    background-color: blue;
+    padding: 30px;
+}
+
+.caja {
+    width: 100px; /* Ancho de cada caja */
+    height: 100px; /* Alto de cada caja */
+    margin: 50px; /* Margen entre cajas */
+    background-color: #af0808; /* Color de fondo de las cajas */
+  }
+

@@ -1,0 +1,273 @@
+body {
+    font-family: cursive;
+    width: 1400px;
+}
+
+
+.header1 {
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    color: white;
+}
+
+.nav-links1 {                             /**/
+    color: #fff;
+    font-family: cursive;
+    display: flex;
+    position: relative;  
+    left: 1px;
+    list-style-type: none;
+
+}
+
+.nav-links1 li {
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.nav-links1 li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header1 h1{
+
+    position: relative;  
+    left: 20px;
+    top: 40px;
+    text-decoration: underline yellow;
+    font-size: 40px;
+}
+
+.header1 h1:hover{
+
+    color: yellow;    
+}
+
+.rayo1{
+    position: relative;
+    left: 10px;
+    margin-top: 75px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.rayo2{
+    position: relative;
+    left: 30px;
+    margin-top: 75px;
+    width: 30px;
+    height: 30px;
+}
+
+.header2 {
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links2 {                             /**/
+    color: #fff;
+    align-items: center;
+    font-family: cursive;
+    display: flex;
+    position: relative;  
+    left: 300px;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-links2 li {
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.nav-links2 li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.imagenes img{
+    flex-direction: row;
+    position: relative;
+    left: 800px;
+    height: 30px;
+    margin: 15px;
+}
+
+/*-----------------------------------------------*/
+.container1{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    width: 350px;
+    height: 550px;
+    background-color: RGB(221, 221, 221);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 label{                             /*Palabra Filtros*/
+    position: relative;
+    left: 150px;
+    top: 40px;
+    font-family: cursive;
+}
+
+#filtro{                                      /*Select*/
+    position: relative;
+    width: 220px;
+    left: 70px;
+    top: 55px;
+    border-color: yellow;
+    font-family: cursive;
+}
+
+.checks{                                 /**/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    left: -70px;
+}
+
+.form-music{                                 /*recuadros*/
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: -10px;
+    margin: 1px;
+}
+
+/*------------------------------------------------------------*/
+
+#filtro2{                                      /*Select*/
+    position: relative;
+    width: 220px;
+    left: 70px;
+    top: 30px;
+    border-color: yellow;
+    font-family: cursive;
+}
+
+.checks2{                                
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: -70px;
+}
+
+.anios-music{                                 /*recuadros*/
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: -10px;
+    margin: 1px;
+}
+
+#filtrar {
+    position: relative;
+    width: 70px;
+    left: 200px;
+    top: 100px;
+    box-shadow: 2px 2px #333;
+    font-family: cursive;
+    background-color: RGB(255, 229, 153);
+}
+
+
+/*CONTAINER2*/
+
+.container2{
+    position: relative;
+    display: flex;
+    width: 950px;
+    height: 550px;
+    left: 410PX;
+    top: -530px;
+    background-color: RGB(221, 221, 221);
+    border-radius: 10%;
+    text-align: center;
+} 
+
+.container2 h1{
+    position: relative;
+    font-size: 45px;
+    left: 370px;
+    top: -18px;
+
+}
+
+.grupo1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    top: 100px;
+    left: -120px;
+}
+
+.grupo1 img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 50px;
+}
+
+.grupo2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    top: 100px;
+    left: -80px;
+}
+
+.grupo2 img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 50px;
+}
+
+#btnbanda1{
+    position: relative;
+    width: 80px;
+    left: 135px;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px #333;
+
+}
+
+#btnbanda2{
+    position: relative;
+    width: 80px;
+    left: 135px;
+    color: black;
+    background-color: RGB(255, 229, 153);
+    box-shadow: 2px 2px #333;
+
+
+}
+
+

@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+
+}
+/* HEADER //////////////////////////////////////////////////////////////////////////////////////*/
+
+.div-header{
+    display: flex;
+    background: linear-gradient(180deg, #333333 20%, #4b4b4b);
+    width: 68rem;
+    height: 4rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo-h{
+    font-size: 2rem;
+    flex: 0.4;
+    height: 4rem;
+    align-content: center;
+    margin-left: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.body-h{
+    font-size: 1.4rem;
+    flex: 3;
+    height: 4rem;
+    align-content: center;
+    margin-left: 25rem;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+a{
+    margin-left: 1rem;
+    color: #fdfffe;
+
+}
+
+.button-a{
+    background-color: #01bdce;
+    border-radius: 0.38rem;
+    height: 2rem;
+    width: 8rem;
+    color: #f6feff;
+    font-family: "Bebas Neue", sans-serif;
+    margin-left: 1rem;
+}
+
+
+/* maindivs //////////////////////////////////////////////////////////////////////////////////////////////*/
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.main-div1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+
+
+/*DIVa //////////////////////////////////////////*/
+
+.diva1{
+    background: linear-gradient(#00bcd5,#004b55);
+    height: 6rem;
+    flex: 0.6;
+    margin-left: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+
+.diva2{
+    background-color: #ffffff;
+    height: 30rem;
+    flex: 3;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow:  0rem 0.5rem 1rem #888888;
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+.img-box1{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: 32rem;
+    left: 5rem;
+    border: solid 0.2rem white;
+}
+
+.diva3{
+    background-color: #ffffff;
+    height: 6rem;
+    flex: 1;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.5rem 1rem #888888;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+/* main div-2//////////////////////////////////////////////////*/
+.main-div2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 20rem;
+    height: 41rem;
+    border-radius: 1rem;
+    margin-right: 10rem;
+    margin-left: 5rem;
+}
+
+/*DIVb////////////////////////////////////////////////*/
+.divb1{
+    display: flex;
+    background-color: #ffffff;
+    flex: 1;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 1rem;
+    box-shadow:  0rem 0.5rem 1rem #888888;
+
+}
+.button-b{
+    display: flex;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    align-self: flex-start;
+    margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.img-box2{
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid 0.1rem #00bcd5;
+}
+
+.divb2{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    flex: 3;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-left: 1rem;
+    box-shadow:  0rem 0.5rem 1rem #888888;
+}
+
+.img-box3{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid 0.1rem black;
+}

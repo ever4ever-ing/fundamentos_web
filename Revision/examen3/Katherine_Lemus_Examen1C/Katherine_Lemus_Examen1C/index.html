@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalla Musical</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header1">
+        <ul class="nav-links1">
+            <li><a href="#">Inicio de Sesión</a></li>
+            <li><a href="#">Registro</a></li>
+            <div class="imagenes">
+                <img src="img/mapa.png" alt="">
+                <img src="img/perfil.png" alt="">
+                <img src="img/mensajes.png" alt="">
+            </div>
+        </ul>
+            <img class="rayo1" src="img/rayo.png" alt="rayo1">
+            <h1>Batalla Musical</h1>     
+            <img class="rayo2" src="img/rayo.png" alt="rayo2">
+    </header>
+    <header class="header2">
+        <ul class="nav-links2">
+            <li><a href="#">Géneros</a></li>
+            <li><a href="#">Batallas Pasadas</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Patrocinadores</a></li>
+            <li><a href="#">Inscripciones</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="container1">
+            <label for="intereses">Filtros </label>
+            <div class="select"> 
+                <div>
+                    <select name="filtro" id="filtro">
+                        <option>GÉNERO MUSICAL</option>
+                    </select>
+                </div>
+            </div>
+            <div id="music-options" class="checks">
+                <label for="clasica">
+                    <input id="clasica" class="form-music" type="checkbox" name="clasica" />
+                    Clásica
+                </label>
+                <label for="rock">
+                    <input id="rock" class="form-music" type="checkbox" name="rock" />
+                    Rock
+                </label>
+                <label for="jazz">
+                    <input id="jazz" class="form-music" type="checkbox" name="jazz" />
+                    Jazz
+                </label>
+                <label for="pop">
+                    <input id="pop" class="form-music" type="checkbox" name="pop" />
+                    Pop
+                </label>
+            </div>
+            <div class="select2"> 
+                <div>
+                    <select name="filtro2" id="filtro2">
+                        <option>ÉPOCA</option>
+                    </select>
+                </div>
+            </div>
+            <div id="anios-options" class="checks2">
+                <label for="ochenta">
+                    <input id="ochenta" class="anios-music" type="checkbox" name="ochenta" />
+                    Años 80s
+                </label>
+                <label for="noventa">
+                    <input id="noventa" class="anios-music" type="checkbox" name="noventa" />
+                    Años 90s
+                </label>
+                <label for="dosmil">
+                    <input id="dosmil" class="anios-music" type="checkbox" name="dosmil" />
+                    Año 2000
+                </label>
+                <button id="filtrar" onclick="hide(this)">Filtrar</button>
+            </div>
+        </div>
+        <div class="container2">
+            <h1>Votaciones</h1>
+            <div class="grupo1">
+                <img src="img/banda-1.jpg" alt="banda1">
+                <h3>Strawberry Fields Forever</h3>
+                <h2 id="counter1" class="counter">0</h2>
+                <button id="btnbanda1" class="buttons">Votar</button>
+            </div>
+            <div class="grupo2"> <img src="img/banda-2.jpg" alt="banda2">
+                <h3>Las Piedras Rodantes</h3>
+                <h2 id="counter2" class="counter">0</h2>
+                <button id="btnbanda2" class="buttons">Votar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>    
+</body>
+</html>

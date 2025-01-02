@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Adopta Tu Árbol</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <p>Tu plataforma favorita de adopción de árboles</p>
+    </header>
+    
+    <nav>
+        <h1>AdoptaTuÁrbol</h1>
+        <div class="buttons">
+            <button id="adoptar">Adoptar</button>
+            <button id="donar">Donar</button>
+        </div>
+    </nav>
+
+    <section class="tree-section">
+        <div class="title">
+            <h2 id="mostrar-arboles">Mostrando: Todos los Árboles</h2>
+            <select id="filtro-arboles">
+                <option value="todos">Todos los Árboles</option>
+                <option value="frutales">Árboles Frutales</option>
+                <option value="florales">Árboles Florales</option>
+                <option value="Ornamentales">Árboles Ornamentales</option>
+
+            </select>
+        </div>
+
+        <div class="tree-container">
+            <div class="tree-card">
+                <img src="img/alamo.jpg" alt="Álamo">
+                <div class="tree-info">
+                    <h3>Álamo</h3>
+                    <p>Árbol caducifolio, de hojas anchas y largos pecíolos.</p>
+                    <button class="adoptar-btn">Adoptar</button>
+                </div>
+            </div>
+            <div class="tree-card">
+                <img src="img/fresno.jpg" alt="Fresno">
+                <div class="tree-info">
+                    <h3>Fresno</h3>
+                    <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+                    <button class="adoptar-btn">Adoptar</button>
+                </div>
+            </div>
+            <div class="tree-card">
+                <img src="img/pino.jpg" alt="Pino">
+                <div class="tree-info">
+                    <h3>Pino</h3>
+                    <p>Árbol de la familia de las abietáceas, de tronco elevado.</p>
+                    <button class="adoptar-btn">Adoptar</button>
+                </div>
+            </div>
+            <div class="tree-card">
+                <img src="img/jacaranda.jpg" alt="Jacaranda">
+                <div class="tree-info">
+                    <h3>Jacaranda</h3>
+                    <p>Árbol de copa extendida y redondeada con flores.</p>
+                    <button class="adoptar-btn">Adoptar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contacto">
+            <p><strong>Contáctanos:</strong></p>
+            <p>Av. Principal #123, Ciudad Palma, 10000 Chile</p>
+        </div>
+        <div class="footer-links">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Adopta un Árbol</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Patrocinadores</a>
+        </div>
+        <div class="suscribete">
+            <label for="email">Suscríbete:</label>
+            <input type="email" id="email" placeholder="usuario@correo.com">
+            <button id="enviar">Enviar</button>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cajas se envuelvan cuando no hay suficiente espacio */
+    justify-content: space-between; 
+    background-color: rgb(198, 198, 198);
+
+  }
+.fila{
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cajas se envuelvan cuando no hay suficiente espacio */
+  margin: 0 auto;
+  padding: 10px;
+  flex-wrap: 0 0 20%;
+}
+  
+.tipo2 {
+  justify-content: center; /* Alineación horizontal al centro para la segunda fila */
+  align-items:flex-end;
+  background-color: rgb(91, 182, 135);
+  flex: 0 0 100%;
+}
+.tipo1 {
+  justify-content: flex-start; /* Alineación horizontal a la izquierda para la primera fila */
+  align-items:center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(44, 230, 243);
+}
+
+
+.tipo3{
+width: 100px;
+background-color: blue;
+flex: 0 0 100%;
+
+}
+.caja {
+    width: 100px; /* Ancho de cada caja */
+    height: 100px; /* Alto de cada caja */
+    margin: 50px; /* Margen entre cajas */
+    background-color: #ccc; /* Color de fondo de las cajas */
+    flex: 0 0 10%;
+  }
+
+  /*flex-start, flex-end,
+   center, space-between,
+   space-around, o space-evenly */

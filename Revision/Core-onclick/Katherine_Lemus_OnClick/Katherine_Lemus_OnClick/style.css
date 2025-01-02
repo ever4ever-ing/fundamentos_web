@@ -1,0 +1,148 @@
+.container {
+    background-color: white;
+    width: 1800px;
+    height: 1000px;
+    display: flex;
+    position: relative;
+    left: 100px;
+
+}
+
+.header{   
+    background-color: RGB(211, 211, 211);
+    width: 1800px;
+    height: 170px;
+    display: flex;
+    left: 100px;
+}
+
+.buscador{       /*LOGO*/
+
+    color: black;
+    position: relative;    
+    top: 40px;
+    left: 140px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text{                      /*Buscador*/
+
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    top: 60px;
+    left: 300px;
+    text-align: start;
+}
+
+#botonSesion{   
+
+    position: relative;
+    width: 140px;
+    height: 40px;
+    top: 70px;
+    left: 450px;
+    border-radius: 10%;
+    color: white;
+    background-color: RGB(30, 144, 255);
+}
+
+.container2 {
+    /*background-color: rgb(134, 46, 46);  */
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    left: 160px;
+    top: -800px;
+    border: 2px solid;
+}
+
+.texto1 {
+    display: flex;
+    position: relative;
+    color: black;
+    left: 30px;
+    top: 40px;
+    width: 900px;
+    height: 250px;
+    background-color: white;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#likebtn {
+    width: 100px;
+    position: relative;
+    left: 1px;
+    border-radius: 10%;
+    background-color: RGB(255, 255, 204);
+}
+
+.container3 {
+    /*background-color: rgb(63, 192, 46);*/
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    left: 160px;
+    top: -750px;
+    border: 2px solid;
+}
+
+.texto2 {
+    display: flex;
+    position: relative;
+    color: black;
+    left: 30px;
+    top: 40px;
+    width: 900px;
+    height: 250px;
+    background-color: white;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#likebtn2 {
+    width: 100px;
+    position: relative;
+    left: 1px;
+    border-radius: 10%;
+    background-color: RGB(255, 255, 204);
+}
+
+.container4 {
+    /*background-color: blue;*/
+    width: 700px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    left: 1180px;
+    top: -1405px;
+    border: 2px solid;
+}
+
+.texto3 {
+    display: flex;
+    position: relative;
+    color: black;
+    left: 30px;
+    top: 40px;
+    width: 500px;
+    height: 100px;
+    /*background-color: aliceblue;*/
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#agregarDef {
+    width: 200px;
+    position: relative;
+    left: 1px;
+    background-color: RGB(0, 128, 0);
+    color: white;
+}
+
+
+
+

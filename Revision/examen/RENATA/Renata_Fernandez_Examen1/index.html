@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AdoptaTuÁrbol</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <h3>Tu plataforma favorita de adopcion de arboles</h3>
+        </nav>
+        
+        <div>
+            <h1><span id="palabra-verde1">Adopta</span><span id="palabra-verde2">Tu</span><span id="palabra-verde3">Árbol</span></h1>
+            <button class="boton-estilizado1">Adoptar</button>
+            <button onclick="donar()" class="boton-estilizado2">Donar</button>
+        </div>
+        
+        <hr />
+        
+        <div>
+            <h2 class="mostrando">Mostrando: Todos los Árboles</h2>
+            <select id="arboles" name="arboles" onchange="cambiarTexto()">
+                <option value="Todos los Árboles">Todos los Árboles</option>
+                <option value="Árboles Frutales">Árboles Frutales</option>
+                <option value="Árboles de Flores">Árboles de Flores</option>
+                <option value="Árboles Ornamentales">Árboles Ornamentales</option>
+            </select>
+        </div>
+
+        <div class="contenedor1">
+            <img src="img/alamo.jpg">
+            <h3 class="texto-centrado"><u>Álamo</u></h3>
+            <p class="texto-centrado">Árbol caducifolio, de hojas anchas y con largos pecíolos. Se trata de un árbol que habita en regiones húmedas, soporta bien el frío.</p>
+            <button class="boton-cambiar">Adoptar</button>
+        </div>
+        <div class="contenedor1">
+            <img src="img/fresno.jpg">
+            <h3 class="texto-centrado"><u>Fresno</u></h3>
+            <p class="texto-centrado">Árbol con tronco recto y cilíndrico, con amplia copa. El fresno está considerado por muchos “el árbol de la buena suerte”. de los mas frondosos.</p>
+            <button class="boton-cambiar">Adoptar</button>
+        </div>
+        <div class="contenedor2">
+            <img src="img/pino.jpg">
+            <h3 class="texto-centrado"><u>Pino</u></h3>
+            <p class="texto-centrado">Árbol de la familia de los abietáceas, de tronco elevado, recto. presentan una ramificación frecuentemente verticilada y más o menos regular.​</p>
+            <button class="boton-cambiar">Adoptar</button>
+        </div>
+        <div class="contenedor2">
+            <img src="img/jacaranda.jpg">
+            <h3 class="texto-centrado"><u>Jacaranda</u></h3>
+            <p class="texto-centrado">Árbol de copa extendida y redondeada con flores. Se conoce como jacarandá, jacaranda, gualanday o tarco.</p>
+            <button class="boton-cambiar">Adoptar</button>
+        </div>
+
+        <footer class="footerbar">
+            <div class="contacto">
+                <h3"><span id="palabra-blanca">Contáctanos</span></h3>
+                <p>Av. Principal #123 Ciudad Palma, 10000 Chile.</p>
+            </div>
+            <ul class="datos1">
+                <li>Inicio</li>
+                <li>Sobre Nosotros</li>
+                <li>Adopta un Árbol</li>
+            </ul>
+            <ul class="datos2">
+                <li>Contacto</li>
+                <li>Patrocinadores</li>
+                <li>Proyectos</li>
+            </ul>
+            <div>
+                <h3><span id="palabra-blanca">Suscríbete</span></h3>
+                <div class="email">
+                    <input type="text" id="nombre" name="nombre" />
+                    <label for="nombre" style="font-size: 13px;">Email .</label>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

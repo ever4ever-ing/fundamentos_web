@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CABECERA */
+
+header{
+    background-color: #989899;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+header img{
+    width: 250px;
+    height: auto;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    padding: 10px;
+}
+#activo{
+    color: rgb(160, 13, 13);
+}
+button{
+    padding: 5px 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+}
+button.registro{
+    background-color: rgb(160, 13, 13);
+}
+button.crearEvento{
+    background-color: #323332;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* FILTRO DE BUSQUEDA */
+
+.filtro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.evento-activo{
+    border-bottom: 2px solid rgb(160, 13, 13);
+}
+.buscador{
+    border-radius: 7px 0px 0px 7px;
+    padding: 5px;
+    margin-right: -6px;
+}
+#buscar{
+    margin: 0;
+    background-color: rgb(160, 13, 13); 
+}
+#ordenar{
+    padding: 5px;
+}
+
+/* CARD DE EVENTOS */
+
+.contenedor-principal{
+    display: flex;
+    background-color: #edf0ed;
+    justify-content: space-evenly;
+}
+.box-evento{
+    width: 450px;
+    margin: 20px 0px 150px;
+    border: 2px solid #000000;
+}
+.box-evento img{
+    display: flex;
+    width: 450px;
+    height: auto;
+}
+.desc-evento{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.desc-evento h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(160, 13, 13);
+}
+
+.desc-evento div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px ;
+    width: 70%;
+    height: 100%;
+}
+i{
+    display: flex;
+    width: 10%;
+    cursor: pointer;
+}

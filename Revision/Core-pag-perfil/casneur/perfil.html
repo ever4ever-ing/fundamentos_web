@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="navbar-perfil">Perfil</div>
+        <ul class="navbar-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Mi Perfil</a></li>
+            <li><a href="#">Encontrar Conexiones</a></li>
+            <li><button class="logout-btn">Cerrar Sesión</button></li>
+        </ul>
+        
+    </nav>
+
+    <div class="container">
+        <!-- Columna izquierda: Perfil -->
+        <div class="columnaizquierda">
+            <div class="perfil">
+                <div class="div1"></div>
+                <div class="div2">
+                    <img src="img/perfil.jpg" alt="Imagen de perfil" class="img">
+                    <h1 class="nombre">DreZus099</h1>
+                    <p class="direc">E.E.U.U / NEW YORK</p>
+                    <p class="exper">Desarrollo web (HTML/CSS).</p>
+                    <p class="descrip">Apasionado por crear experiencias digitales hermosas y funcionales,
+                        para la creación de interfaces intuitivas y atractivas, con un enfoque en la experiencia de usuario y la accesibilidad. 
+                        combinando el diseño con habilidades técnicas para desarrollar soluciones web innovadoras.
+                    </p>
+                    <button class="boton"><a href="https://www.codingdojo.la/" class="editlink">EditarPerfil</a></button>
+                </div>
+            </div>
+            <!-- Sección de Educación -->
+            <div class="formacion">
+                <h2>formación</h2>
+                <p>Coding Dojo - Bootcamp de Desarrollo Full Stack</p>
+                <p>Oct 2024 - dic 2024</p>
+            </div>
+        </div>
+
+        <!-- Columna derecha: Solicitudes de Conexión y Conexiones -->
+        <div class="columnaderecha">
+            <!-- Solicitudes de Conexión -->
+            <div class="connection-requests">
+                <h3>Solicitudes de Conexión (2)</h3>
+                <div class="request">
+                    <img src="img/foto8.jpg" alt="Foto de Kai">
+                    <span>idalis revert</span>
+                    <div class="actions">
+                        <button class="accept">✔</button>
+                        <button class="decline">✘</button>
+                    </div>
+                </div>
+                <div class="request">
+                    <img src="img/foto7.jpg" alt="Foto de Amira">
+                    <span>beltmon dre</span>
+                    <div class="actions">
+                        <button class="accept">✔</button>
+                        <button class="decline">✘</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lista de Conexiones -->
+            <div class="connections">
+                <h3>Tus Conexiones (500+)</h3>
+                <ul>
+                    <li><img src="img/foto1.jpg" alt="Foto de Adrien"> Adri Desplatz</li>
+                    <li><img src="img/foto2.jpg" alt="Foto de Aarav"> Aarav Patel</li>
+                    <li><img src="img/foto3.jpg" alt="Foto de Lina"> Lina Kovačević</li>
+                    <li><img src="img/foto4.jpg" alt="Foto de Mateo"> Mateo Hernández</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

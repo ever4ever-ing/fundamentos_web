@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoptaTuÁrbol</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <p id="primertexto">Tu Plataforma Favorita de Adopcion de Árboles</p>
+
+    <header class="container">
+        <div class="div1">
+            <h1>Adopta Tu Árbol</h1>
+            <div class="header-buttons">
+                <button id="btn1">Adoptar</button>
+                <button id="btn2">Donar</button>
+            </div>
+        </div>
+
+        <div class="dividir"></div>
+
+        <div class="sub-header">
+            <p id="texto-dinamico">Mostrando:</p>
+            <select id="opciones">
+                <option value="Todos los arboles">Todos los arboles</option>
+                <option value="Arboles frutales">Arboles frutales</option>
+                <option value="Arboles de flor">Arboles de flor</option>
+                <option value="Arboles Ornamentales">Arboles Ornamentales</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="tree-grid">
+        <!-- Cuadro 1: Álamo -->
+        <div class="tree-card">
+            <img src="img/alamo.jpg" alt="Álamo">
+            <div class="tree-info">
+                <h2>Álamo</h2>
+                <p>Árbol caducifolio, de hojas anchas y con largos pecíolos.</p>
+            </div>
+            <button class="adopt-btn">Adoptar</button>
+        </div>
+
+        <!-- Cuadro 2: Fresno -->
+        <div class="tree-card">
+            <img src="img/fresno.jpg" alt="Fresno">
+            <div class="tree-info">
+                <h2>Fresno</h2>
+                <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+            </div>
+            <button class="adopt-btn">Adoptar</button>
+        </div>
+
+        <!-- Cuadro 3: Pino -->
+        <div class="tree-card">
+            <img src="img/pino.jpg" alt="Pino">
+            <div class="tree-info">
+                <h2>Pino</h2>
+                <p>Árbol de la familia de las abietáceas, de tronco elevado, recto.</p>
+            </div>
+            <button class="adopt-btn">Adoptar</button>
+        </div>
+
+        <!-- Cuadro 4: Jacaranda -->
+        <div class="tree-card">
+            <img src="img/jacaranda.jpg" alt="Jacaranda">
+            <div class="tree-info">
+                <h2>Jacaranda</h2>
+                <p>Árbol de copa extendida y redondeada con flores moradas.</p>
+            </div>
+            <button class="adopt-btn">Adoptar</button>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section contact-info">
+                <h3>Contáctanos</h3>
+                <p>Av. Principal #123<br>
+                    Ciudad Palma, 10000<br>
+                    Chile</p>
+            </div>
+            <div class="footer-section links">
+                <ul>
+                    <li><a href="https://www.codingdojo.com/">Inicio</a></li>
+                    <li><a href="https://www.codingdojo.com/">Sobre Nosotros</a></li>
+                    <li><a href="https://www.codingdojo.com/">Adopta un Árbol</a></li>
+                    <li><a href="https://www.codingdojo.com/">Contacto</a></li>
+                    <li><a href="https://www.codingdojo.com/">Patrocinadores</a></li>
+                    <li><a href="https://www.codingdojo.com/">Proyectos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section subscribe">
+                <h3>Suscríbete</h3>
+                <form>
+                    <input type="email" placeholder="usuario@correo.com" required>
+                    <button type="submit">enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

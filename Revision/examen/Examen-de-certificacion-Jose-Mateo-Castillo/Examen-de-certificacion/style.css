@@ -1,0 +1,189 @@
+header{
+    display: flex;
+    background-color: #94c47eff;
+    justify-content: center;
+    margin: -1rem;
+    font-family: "Averia Libre", system-ui;
+}
+
+body{
+    margin: 0 auto;
+}
+
+main{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+/*Linea de separacion entre el div1-a y div1-b*/
+hr{
+    height: 0.1rem;
+    width: 99%;
+    background-color: black;
+}
+
+img{
+    height: 8rem;
+    width: 8rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+/*Colores de la palabra AdoptaTuArbol*/
+.color1{
+    color: #009e10ff;
+}
+
+.color2{
+    color: #b5d6a7ff;
+}
+
+.color3{
+    color: #94c47eff;
+}
+
+footer{
+    display: flex;
+    background-color: #94c47eff;
+    font-family: "Averia Libre", system-ui;
+    justify-content: space-evenly;
+    margin: -1rem;
+}
+
+/*Atributos de la parte central del footer*/
+table{
+    width: 170%;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.div1{
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: column;
+}
+
+.div1-a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Averia Libre", system-ui;
+    font-size: 2rem;
+    height: 7.3rem;
+}
+
+.div1-b{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Averia Libre", system-ui;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.div2-a{
+    display: flex;
+    background-color: #edededff;
+    margin-top: 1rem;
+    height: 7rem;
+    width: 32rem;
+    padding: 1.1rem;
+    border-radius: 1rem;
+    font-family: "Averia Libre", system-ui;
+    margin-bottom: 2rem;
+}
+
+.contenido{
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    align-items: center;
+}
+
+.adoptar-arbol{
+    background-color: #94c47eff;
+    color: rgb(0, 0, 0);
+    font-family: "Averia Libre", system-ui;
+    border-right: 0.3rem solid black;
+    border-bottom: 0.3rem solid black;
+    font-size: 1.5rem;
+}
+
+#adoptar{
+    background-color: #b5d6a7ff;
+    color: white;
+    font-family: "Averia Libre", system-ui;
+    font-size: 2rem;
+    height: 3rem;
+    width: 8rem;
+    color: rgb(0, 0, 0);
+    border-right: 0.3rem solid black;
+    border-bottom: 0.3rem solid black;
+}
+
+#donar{
+    background-color: #6aa84fff;
+    color: white;
+    font-family: "Averia Libre", system-ui;
+    font-size: 2rem;
+    height: 3rem;
+    width: 8rem;
+    margin-right: 2rem;
+    border-right: 0.3rem solid black;
+    border-bottom: 0.3rem solid black;
+}
+
+#arboles{
+    margin: 1rem;
+    width: 10rem;
+    height: 2rem;
+    border: 0.2rem solid;
+    font-size: 1rem;
+    font-family: "Averia Libre", system-ui;
+}
+
+#boton-enviar{
+    background-color: #38751dff;
+    color: white;
+    border-right: 0.3rem solid black;
+    border-bottom: 0.3rem solid black;
+    font-size: 1rem;
+    font-family: "Averia Libre", system-ui;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

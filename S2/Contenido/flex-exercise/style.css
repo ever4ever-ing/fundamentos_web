@@ -1,0 +1,14 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cajas se envuelvan cuando no hay suficiente espacio */
+    justify-content: space-between; 
+    background-color: rgb(105, 203, 212);
+  }
+
+.caja {
+    width: 100px; /* Ancho de cada caja */
+    height: 100px; /* Alto de cada caja */
+    margin: 50px; /* Margen entre cajas */
+    background-color: #ccc; /* Color de fondo de las cajas */
+  }
+

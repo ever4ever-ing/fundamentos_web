@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+        <style>
+            h2 {
+                font-family: 'Sixtyfour Convergence', sans-serif;
+                font-size: 50px;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> Registrate:</h1>
+        <div class="contenedor">
+            <h2>Completa el formulario</h2>
+            <form action="/registro" method="post">
+                <div class="nombre" >
+                    <label>Tu nombre completo: </label>
+                    <input type="text" name="nombre_completo" placeholder="Ingresa tu nombre " />
+                </div>
+
+                <div class="correo">
+                    <label>Correo electrónico: </label>
+                    <input type="text" name="correo" placeholder="Ingresa tu correo " />
+                </div>
+
+                <div class="contraseña">
+                    <label>Contraseña: </label>
+                    <input type="password" name="contraseña" placeholder="Ingresa tu contraseña" />
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="suscribirse" id="suscribirse" checked />
+                    <label for="suscribirse">Deseo suscribirme al boletín informativo.</label>
+                </div>
+
+                <input id="boton" type="submit" value="Registrarse" />
+            </form>
+        </div>
+        <div>
+            <p > Marca Registrada </p>    
+        </div>
+    </body>
+</html>

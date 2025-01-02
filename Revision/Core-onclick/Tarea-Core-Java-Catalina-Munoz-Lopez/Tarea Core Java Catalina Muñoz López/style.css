@@ -1,0 +1,139 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(197, 99, 197);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a, .logout-button {
+    color: #fff;
+    text-decoration: none;
+}
+
+.barra {
+    width: -200px;
+    display: flex; 
+    justify-content: center; 
+    padding: 10px;
+    margin-left: -900px;
+    margin-right: -1200px;
+    margin-top: 80px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type="text"] {
+    font-size: 20px; 
+    padding: 10px; 
+    width: 800px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: -900px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+.botoninicio {
+    font-size: 60px; 
+    width: 600px; 
+    margin-left:600px;
+    margin-right: -400px;
+    margin-top: -130px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-size: 30px;
+}
+h2,h3{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid  #000000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    text-align: left;
+    margin-top: -114px;
+    margin-left: 20px;
+}
+.container2 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.TI {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 1000px;
+    margin-right: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(197, 99, 197);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8da3e2; 
+}
+
+#contador {
+    font-size: 20px; 
+    margin-top: 20px; 
+}

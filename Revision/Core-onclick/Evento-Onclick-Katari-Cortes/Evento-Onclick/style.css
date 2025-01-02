@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3;
+    width: 80rem;
+    height: 5rem;
+    font-family: "Roboto", sans-serif;
+    margin-left: 5rem;
+}
+#container{
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 80rem;
+    height: 35rem
+    
+}
+.container1{
+    background-color: #ffffff;
+    width: 50rem;
+    height: 11rem;
+    border: 0.1rem solid black;
+    margin-top: 1rem;
+}
+.container2{
+    background-color: #ffffff;
+    width: 50rem;
+    height: 11rem;
+    border: 0.1rem solid black;
+    margin-top: 1rem;
+}
+.container3{
+    background-color: #ffffff;
+    width: 30rem;
+    height: 5rem;
+    border: 0.1rem solid black;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.logo a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.buscador{
+    width: 50rem;
+    height: 1.5rem;
+}
+.button1{
+    background-color: #208fff;
+    color: #ffffff;
+    width: 6.5rem;
+    height: 2rem;
+    margin-right: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.501);
+}
+.button2{
+    background-color: #faffc9;
+    color: black;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.267);
+}
+.button3{
+    background-color: #008100;
+    color: #ffffff;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.267);
+}
+
+h1{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    margin: 0.5rem;
+}
+.p-1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.5rem;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.p-2{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+}
+.p-3{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}

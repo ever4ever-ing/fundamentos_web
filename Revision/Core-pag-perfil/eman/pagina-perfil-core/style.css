@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    outline: 0;
+    border: 0 none;
+    vertical-align: baseline;
+	font-size: 100%;
+    
+
+
+}
+/*header completo*/
+header{
+    background-color: #333333;
+    display: flex;
+    color: white;
+    height: 100px;
+    align-items:center;
+
+
+}
+.headerA{
+    background-color:#333333;
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    padding-left:30px ;
+}
+
+.headerB{
+    background-color: #333333;
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#cerrar{
+    
+    width: 15%;
+    height: 2rem;
+    font-size: 15px;
+    background-color: #00bcd5;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #888888;
+    text-shadow: 0px 5px 5px #888888;
+}
+
+/*caja mainA*/
+
+.mainA {
+    position: relative;
+    max-width: 40rem;
+    width: 100%;
+    height: 35rem;
+    border-radius: 1rem;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px #888888;
+    display: flex;
+    flex-direction: column;
+}
+#img {
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    position: absolute;
+    border-radius: 100px;
+    border: 5px rgb(255, 255, 255) solid;
+    left: 10%;
+    top: 10%;
+    box-shadow: 0px 5px 5px #888888;
+}
+
+.contBlanco {
+    padding-left: 1rem;
+    margin-top: 5rem;
+    margin-right: 1rem;
+    font-size: 20px;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.contAzul {
+    background-color: #00bcd5;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0px 5px 5px #888888;
+}
+
+#editProfile  {
+    position: relative;
+    left: 60%;
+    top: 90%;
+    font-size: 20px;
+    background-color: #00bcd5;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px #888888;
+    text-shadow: 0px 5px 5px #888888;
+    
+}
+
+
+/*mainB*/
+
+.mainB{
+    box-shadow: 3px 5px 5px #888888;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    border-radius: 1rem;
+    justify-content: space-around;
+    max-width: 40rem;
+    width: 100%;
+    padding: 12px;
+}
+
+#imgB {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 100px;
+    border: 2px rgb(211, 156, 156) solid;
+    box-shadow: 0px 5px 5px #888888;
+}
+
+/* caja mainC*/
+.mainC{
+    box-shadow: 3px 5px 5px #888888;
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    border-radius: 1rem;
+    justify-content: space-around;
+    max-width: 40rem;
+    width: 100%;
+    padding: 10px;;
+    
+
+}
+/*caja de main D*/
+
+.mainD{
+    box-shadow: 3px 5px 5px #888888;
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    width: 35rem;
+    border-radius: 1rem;
+    justify-content: space-around;
+    max-width: 40rem;
+    width: 100%;
+    padding: 10px;
+
+}
+
+
+
+
+/* controlar en pantalla las cajas*/
+
+
+#mains{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#mainsIzq{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#mainsDer{
+    display: flex;
+    flex-direction: column;
+}
+
+/* controlar el cotenido de la caja C y D */
+
+#enLinea{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    
+
+}
+#enLinea div{
+    padding: 5px;
+    margin: 3px;
+}
+
+#enLinea p{
+    font-size: 20px;
+    color: rgb(113, 121, 114);
+}
+
+#enLinea button{
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 100px;
+} 

@@ -1,0 +1,485 @@
+*{
+    font-family: Arial, sans-serif;   
+}
+
+
+.navbar{
+    background-color: RGB(153, 153, 153);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 80px;   
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.logo {
+    display: flex;
+    position: relative;
+    background-color: RGB(153, 153, 153);
+    width: 300px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+}
+
+
+.logo h1{
+    position: relative;
+    color: white;
+    top: -5px;
+    left: 30px;
+    width: 130px;
+    height: 30px;
+    background-color: RGB(153, 153, 153);
+    font-size: 30px;
+}
+
+.esfera{
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    height: 16px;
+    width: 16px;
+    left: -122px;
+    top: 27px;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+.div-nav1 {                 
+    list-style-type: none;         /* Para que quede sin el signo auxiliar*/
+    display: flex;   
+}
+
+.div-nav1 li {
+    position: relative;
+    margin-right: 20px;
+    padding: 20px;
+    left: 470px;
+    top: -10px;
+}
+
+.div-nav1 li a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.div-nav1 li a:hover {
+    color: black;
+}
+
+
+/**/
+
+.div-nav2 {                 
+    list-style-type: none;         /* Para que quede sin el signo auxiliar*/
+    display: flex;  
+
+}
+
+
+.div-nav2 li {
+    position: relative;
+    margin-right: 20px;
+    padding: 20px;
+    left: 250px;
+    top: -10px;
+}
+
+.div-nav2 li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.div-nav2 li a:hover {
+    color: red;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+#button1 {
+    position: relative;
+    left: 200px;
+    top: 25px;
+    background-color: red;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 4px 5px black;
+}
+
+#button2 {
+    position: relative;
+    left: 30px;
+    top: 25px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 4px 5px black;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+.mapa img{
+    width: 1902px;
+    height: 400px;
+    
+}
+
+#mapanuevo{
+    display: flex;
+    position: relative;
+    width: 160px;
+    height: 20px;
+    left: 100px;
+    top: 10px;
+    border: 0;
+    font-size: 15px;   
+    cursor: pointer;
+    background-color: white;
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+.navbar2{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 80px;   
+}
+
+.eventos {                 
+    list-style-type: none;         /* Para que quede sin el signo auxiliar*/
+    display: flex;   
+    background-color: white;
+    width: 500px;
+    left: 20px;
+    position: relative;
+}
+
+.eventos li {
+    position: relative;
+    margin-right: 20px;
+    padding: 20px;
+    left: 70px;
+    top: -10px;
+}
+.eventos li a {
+    color: black;
+    text-decoration: none;
+}
+
+.buscareventos {
+    position: relative;
+    width: 300px;
+    height: 20px;
+    top: 25px;
+    left: 50px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 0 4px 0 4px;
+    font-style: oblique;
+    border: 2px solid black;
+}
+
+#button3{
+    position: relative;
+    height: 30px;
+    left: -150px;
+    top: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+#select{
+    position: relative;
+    height: 30px;
+    width: 170px;
+    top: 20px;
+    left: -150px;
+    border-color: #000000;
+    text-align: center;
+    cursor: pointer;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+.contenedor3 {
+    display: flex;
+    position: relative;
+    background-color: RGB(238, 238, 238);
+    height: 330px;
+    justify-content: space-around;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+.evento1 {
+    position: relative;
+    flex-direction: column;
+    width: 500px;
+    left: 10px;
+    background-color: RGB(238, 238, 238);
+    
+}
+
+.evento1 h1{
+    position: relative;
+    width: 150px;
+    height: 132px;
+    top: -415px;
+    left: 10px;
+    background-color: RED;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.evento1 h3{
+    position: relative;
+    left: 160px;
+    top: -573px;
+    width: 330px;
+    height: 50px;
+    background-color: RGB(238, 238, 238);
+    text-align: center;
+}
+
+.evento1 h4{
+    position: relative;
+    left: 160px;
+    top: -592px;
+    width: 162px;
+    height: 41px;
+    background-color: RGB(238, 238, 238);
+    text-align: center;
+    margin: 0%;
+
+}
+
+.evento1 img {
+    position: relative;
+    width: 480px;
+    height: 180px;
+    left: 10px;
+    top: -300px;
+}
+
+#button4 {
+    position: relative;
+    display: flex;
+    width: 480px;
+    height: 300px;
+    left: 10px;
+    top: 10px;
+}
+
+#asistente1 {
+    position: relative;
+    width: 90px;
+    height: 80px;
+    left: 300px;
+    top: 225px;
+    background-color: RGB(238, 238, 238) ;
+    cursor: pointer;
+}
+
+
+#counter1 {
+    position: relative;
+    width: 82px;
+    left: 408px;
+    top: -250px;
+    height: 79px;
+    font-size: 40px;}
+
+
+/*----------------------------------------------------------------------*/
+
+
+
+.evento2 {
+    position: relative;
+    flex-direction: column;
+    width: 500px;
+    left: 10px;
+    background-color: RGB(238, 238, 238);
+    
+}
+
+.evento2 h1{
+    position: relative;
+    width: 150px;
+    height: 132px;
+    top: -417px;
+    left: 10px;
+    background-color: red;
+    font-size: 59px;
+    text-align: center;
+
+}
+
+.evento2 h3{
+    position: relative;
+    left: 160px;
+    top: -585px;
+    width: 330px;
+    height: 50px;
+    background-color: RGB(238, 238, 238);
+    text-align: center;
+}
+
+.evento2 h4{
+    position: relative;
+    left: 160px;
+    top: -605px;
+    width: 162px;
+    height: 41px;
+    background-color: RGB(238, 238, 238);
+    text-align: center;
+    margin: 0%;
+
+}
+
+.evento2 img {
+    position: relative;
+    width: 480px;
+    height: 180px;
+    left: 10px;
+    top: -300px;
+}
+
+#button5 {
+    position: relative;
+    display: flex;
+    width: 480px;
+    height: 300px;
+    left: 10px;
+    top: 10px;
+}
+
+#asistente2 {
+    position: relative;
+    width: 90px;
+    height: 80px;
+    left: 300px;
+    top: 223px;
+    background-color: RGB(238, 238, 238) ;
+    cursor: pointer;
+}
+
+
+#counter2 {
+    position: relative;
+    width: 82px;
+    left: 408px;
+    top: -248px;
+    height: 75px;
+    font-size: 40px;}
+
+
+
+/*---------------------------------------------------------*/
+
+
+
+.evento3 {
+    position: relative;
+    flex-direction: column;
+    width: 500px;
+    left: 10px;
+    background-color: RGB(238, 238, 238);
+    
+}
+
+.evento3 h1{
+    position: relative;
+    width: 150px;
+    height: 132px;
+    top: -418px;
+    left: 10px;
+    background-color: RED;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.evento3 h3{
+    position: relative;
+    left: 160px;
+    top: -586px;
+    width: 330px;
+    height: 50px;
+    background-color: RGB(238, 238, 238);
+    text-align: center;
+}
+
+.evento3 h4{
+    position: relative;
+    left: 160px;
+    top: -605px;
+    width: 162px;
+    height: 41px;
+    background-color: RGB(238, 238, 238);
+    text-align: center;
+    margin: 0%;
+
+}
+
+.evento3 img {
+    position: relative;
+    width: 480px;
+    height: 180px;
+    left: 10px;
+    top: -300px;
+}
+
+#button6 {
+    position: relative;
+    display: flex;
+    width: 480px;
+    height: 300px;
+    left: 10px;
+    top: 10px;
+}
+
+#asistente3 {
+    position: relative;
+    width: 90px;
+    height: 80px;
+    left: 300px;
+    top: 223px;
+    background-color: RGB(238, 238, 238) ;
+    cursor: pointer;
+}
+
+
+#counter3 {
+    position: relative;
+    width: 82px;
+    left: 408px;
+    top: -250px;
+    height: 76px;
+    font-size: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

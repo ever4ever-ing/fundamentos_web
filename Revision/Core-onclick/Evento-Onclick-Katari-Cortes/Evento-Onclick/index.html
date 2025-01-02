@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petlopedia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="logo">
+                <a href="#"><b>Petlopedia</b></a>
+            </div>
+            <div>
+                <input class="buscador" type="text" placeholder="Buscar mascotas">
+            </div>
+            <div>
+                <button id="botonCambiar" onclick="cambio(this)" class="button1">Iniciar Sesión</button>
+            </div>
+        </div>
+    </header>
+    <main id="container">
+        <div>
+            <div class="container1">
+                <h1>Gato Atigrado</h1>
+                <p class="p-1">sustantivo</p>
+                <p class="p-2">Plural: Gatos Atigrados</p>
+                <p class="p-3"> Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente</p>
+                <div onclick="alerta1()">
+                    <button id="likeButton" onclick="meGusta1(this)" class="button2">me gusta</button>
+                </div>
+            </div>n
+            <div class="container2">
+                <h1>Golden Retriever</h1>
+                <p class="p-1">sustantivo</p>
+                <p class="p-2">Plural: Golden Retrievers</p>
+                <p class="p-3">Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos</p>
+                <div onclick="alerta2()">
+                    <button id="likeButton" onclick="meGusta2(this)" class="button2">me gusta</button>
+                </div>
+            </div>
+        </div>
+            <div class="container3">
+                <p class="p-2">Petlopedia está definida por TI</p>
+                <div>
+                    <button onclick="hide(this)" class="button3">Agregar Definición</button>
+                </div>
+            </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

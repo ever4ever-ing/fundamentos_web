@@ -1,0 +1,74 @@
+
+/*Selectores descendente */
+.quote p {
+    color: darkslategrey;
+    font-style: italic;
+}
+.quote h1{
+    color: dodgerblue;
+    font-style: normal;
+}
+
+.header{
+    background-color: lightcyan;
+}
+
+/* Selector descendente directo*/
+.header > img {
+    height: 50px;
+    
+}
+
+/*Selector combinado*/
+
+#container{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+#container p {
+    font-size: 16px;
+    background-color: #333;
+    text-align: right; 
+}
+
+/* Estilo para los párrafos dentro del contenedor*/
+
+#container p.highlight {
+    font-weight: bold;
+    color: #ff0000; /* Rojo */
+}
+
+#container p {
+    font-weight: bold;
+    color: #ffffff; /* Blanco */
+}
+
+/*Selectores de atributos*/
+
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+    padding: 5px;
+    margin: 20px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+a {
+
+    text-decoration: underline;
+    
+    font-style: italic;
+    
+    text-decoration: line-through;
+    
+    text-decoration: none;
+    
+    }

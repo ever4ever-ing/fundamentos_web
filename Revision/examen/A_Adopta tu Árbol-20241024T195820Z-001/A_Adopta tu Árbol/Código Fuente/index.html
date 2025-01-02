@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta tu Árbol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        Tu plataforma favorita de adopción de árboles
+    </header>
+    <nav>
+        <div class="logo">Adopta<span>Tu</span><span>Árbol</span></div>
+        <div class="right-header">
+            <button class="boton-adoptar">Adoptar</button>
+            <button class="boton-donar" onclick="donar()">Donar</button>
+        </div>
+    </nav>
+    <main>
+        <section class="filter">
+            <h3>Mostrando: <span class="mostrando">Todos los Árboles</span></h3>
+            <select onchange="filtrar(this)">
+                <option>Todos los Árboles</option>
+                <option>Árboles Frutales</option>
+                <option>Árboles de Flores</option>
+                <option>Árboles Ornamentales</option>
+            </select>
+        </section>
+        <section class="results">
+            <div class="row">
+                <div class="product">
+                    <img src="images/alamo.jpg" alt="Ramo de Rosas">
+                    <div class="product-details">
+                        <h4>Álamo</h4>
+                        <p>Árbol caducifolio, de<br> hojas anchas y con<br> largos pecíolos.</p>
+                    </div>
+                    <button onclick="adoptar(this)">Adoptar</button>
+                </div>
+                <div class="product">
+                    <img src="images/fresno.jpg" alt="Ramo de Rosas">
+                    <div class="product-details">
+                        <h4>Fresno</h4>
+                        <p>Árbol con tronco <br> recto y cilíndrico, con<br> amplia copa.</p>
+                    </div>
+                    <button onclick="adoptar(this)">Adoptar</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="product">
+                    <img src="images/pino.jpg" alt="Ramo de Rosas">
+                    <div class="product-details">
+                        <h4>Pino</h4>
+                        <p>Árbol de la familia de<br> las abietáceas, de <br>tronco elevado, recto.</p>
+                    </div>
+                    <button onclick="adoptar(this)">Adoptar</button>
+                </div>
+                <div class="product">
+                    <img src="images/jacaranda.jpg" alt="Ramo de Rosas">
+                    <div class="product-details">
+                        <h4>Jacaranda</h4>
+                        <p>Árbol de copa<br> extendida y redondeada<br> con flores moradas.</p>
+                    </div>
+                    <button onclick="adoptar(this)">Adoptar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contactanos">
+            <h5>Contáctanos</h5>
+            <p>
+                Av. Principal #123<br>
+                Ciudad Palma, 10000<br>
+                Chile
+            </p>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Adopta un Árbol</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Patrocinadores</a></li>
+                <li><a href="#">Proyectos</a></li>
+            </ul>
+        </div>
+        <div class="suscribete">
+            <h3>Suscríbete</h3>
+            <form>
+                <input type="email" placeholder="usuario@correo.com" ><button>enviar</button>
+            </form>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

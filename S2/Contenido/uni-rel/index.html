@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Layout Responsivo</title>
+    <style>
+        :root {
+            font-size: 16px;
+            --color-fondo-principal: deeppink;
+            --color-fondo-sub-contenido: mediumblue;
+            --color-fondo-anuncio: #33cc33;
+            --color-fondo-nav: #ffcc00;
+            --color-fondo-side: #66ccff;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #eaeaea;
+        }
+
+        .top-nav {
+            width: 100%;
+            height: 10vh;
+            background-color: var(--color-fondo-nav);
+            padding: 1rem;
+        }
+
+        .main {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            min-height: 60vh;
+            padding: 1rem;
+            background-color: var(--color-fondo-principal);
+        }
+
+        .sub-content {
+            width: calc(33.33% - 2rem);
+            height: 20vh;
+            margin: 1rem;
+            padding: 1rem;
+            background-color: var(--color-fondo-sub-contenido);
+            color: white;
+        }
+
+        #advertisement {
+            display: flex-box;
+            flex-direction: row;
+            flex-wrap: wrap;
+            overflow: auto;
+            width: calc(100% - 2rem);
+            height: 16vh;
+            margin: 1rem;
+            padding: 1rem;
+            background-color: var(--color-fondo-anuncio);
+            
+        }
+
+        .side-nav {
+            width: 20vw;
+            min-width: 200px;
+            padding: 1rem;
+            background-color: var(--color-fondo-side);
+        }
+
+        @media (max-width: 768px) {
+            .main, .side-nav {
+                width: 100%;
+            }
+            .sub-content {
+                width: calc(50% - 2rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="top-nav">
+            <h1>Mi Sitio Web</h1>
+        </header>
+
+        <main class="main">
+            <section class="sub-content">
+                <h2>Sección 1</h2>
+                <p>Contenido de la sección 1.</p>
+            </section>
+            <section class="sub-content">
+                <h2>Sección 2</h2>
+                <p>Contenido de la sección 2.</p>
+            </section>
+            <section class="sub-content">
+                <h2>Sección 3</h2>
+                <p>Contenido de la sección 3.</p>
+            </section>
+            <aside id="advertisement">
+                <h2>Anuncio</h2>
+                
+                <p>Este es un espacio para anuncios o contenido destacado.</p>
+            </aside>
+        </main>
+
+        <aside class="side-nav">
+            <h2>Navegación Lateral</h2>
+            <ul>
+                <li><a href="#">Enlace 1</a></li>
+                <li><a href="#">Enlace 2</a></li>
+                <li><a href="#">Enlace 3</a></li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>
